@@ -25,6 +25,6 @@ You are encouraged to customize any part of the template to fit your project's n
 
 ## License
 
-This template is licensed under [CC0 1.0 Universal](LICENSE.md).
+This project is licensed under [Arma Public License Share Alike](LICENSE.md).
 
 Made using [ArmA-3-Mod-Template](https://github.com/Lupus590/ArmA-3-Mod-Template)
