@@ -1,0 +1,39 @@
+name: "Changelog Reminder"
+on:
+- pull_request_target
+
+jobs:
+  changelog-reminder:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if src files changed
+        id: src_changed
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
+            const files = await github.paginate(
+              github.rest.pulls.listFiles,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+              }
+            );
+            const srcChanged = files.some(f => f.filename.startsWith('src/'));
+            core.setOutput('src_changed', srcChanged);
+
+      - name: Run changelog reminder if src changed
+        if: steps.src_changed.outputs.src_changed == 'true'
+        uses: mskelton/changelog-reminder-action@v3.0.0
+        with:
+          changelogRegex: "changelog.md"
+          message: "It looks like the mod content has changed. Please remember to update the changelog."
+
