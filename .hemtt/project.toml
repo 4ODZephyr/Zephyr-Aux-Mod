@@ -1,4 +1,4 @@
-name = "ArmA-3-Mod-Template"
+name = "Zephyr Aux Mod"
 author = "Lupus590"
 prefix = "template"
 mainprefix = "z"
@@ -14,7 +14,7 @@ include = [
 ]
 
 [hemtt.release]
-folder = "ArmA-3-Mod-Template"
+folder = "Zephyr-Aux-Mod"
 
 [hemtt.launch.default]
 presets = [
