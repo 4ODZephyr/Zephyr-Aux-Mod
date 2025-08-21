@@ -14,7 +14,7 @@ include = [
 ]
 
 [hemtt.release]
-folder = "Zephyr-Aux-Mod"
+folder = "Zephyr Aux Mod"
 
 [hemtt.launch.default]
 presets = [
