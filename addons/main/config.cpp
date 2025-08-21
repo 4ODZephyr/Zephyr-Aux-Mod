@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class Template_Main
+	class 4ODZ_Main
 	{
 		name = "main";
 		author = "Lupus590";
@@ -18,8 +18,8 @@ class CfgPatches
 class CfgSettings {
 	class CBA {
 		class Versioning { // https://github.com/CBATeam/CBA_A3/wiki/Versioning-System
-			class Template_Main {
-				main_addon = "Template_Main";
+			class 4ODZ_Main {
+				main_addon = "4ODZ_Main";
 			};
 		};
 	};
