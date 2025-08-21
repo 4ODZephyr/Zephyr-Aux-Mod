@@ -11,10 +11,10 @@ You are encouraged to customize any part of the template to fit your project's n
 
 ## Getting Started
 
-1. Download this repository as a zip, please don't clone it I'd rarther not have loads of repos my commits in their history. (A gotcha with GitHub's template system, `logo.paa` is in git lfs and will fail to copy to your repo so you'll have to manually do copy it.)
-2. Choose a license for your project (see `LICENSE.md`).
+1. ~~Download this repository as a zip, please don't clone it I'd rarther not have loads of repos my commits in their history. (A gotcha with GitHub's template system, `logo.paa` is in git lfs and will fail to copy to your repo so you'll have to manually do copy it.)~~
+2. ~~Choose a license for your project (see `LICENSE.md`).~~
 3. Update `.hemtt/presets/main.html` with your modlist.
-4. Edit `.hemtt/project.toml` with your project details.
+4. ~~Edit `.hemtt/project.toml` with your project details.~~
 5. Review and adjust the documentation in `meta/doc/*` to fit your workflow.
 6. Update this README to reflect your project.
 
