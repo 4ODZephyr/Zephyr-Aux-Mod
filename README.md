@@ -27,3 +27,4 @@ You are encouraged to customize any part of the template to fit your project's n
 
 This template is licensed under [CC0 1.0 Universal](LICENSE.md).
 
+Made using [ArmA-3-Mod-Template](https://github.com/Lupus590/ArmA-3-Mod-Template)
