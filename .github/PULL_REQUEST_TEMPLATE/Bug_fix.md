@@ -2,7 +2,6 @@
 name: Bug fix
 about: Fix a bug
 title: ''
-labels: bug
 assignees: ''
 
 ---
