@@ -1,4 +1,6 @@
 # Code Style
+**Keeping this here unedited from the template for now, might see how I evolve things naturally again. Also thinking of trying to learn Bohemia's conventions and adopting those.**
+
 This is the code style that I like to use in my projects, feel free to adapt it to your preferences.
 
 ## Class Names
