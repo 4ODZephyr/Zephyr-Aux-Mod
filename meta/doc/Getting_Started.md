@@ -42,7 +42,6 @@ curl -sSf https://hemtt.dev/install.sh | sh
 The script can be run again to update HEMTT.
 
 ### Manual Download
-
 Download the latest HEMTT release from the [GitHub releases page](https://github.com/brettmayson/HEMTT/releases).
 
 You will want to add this manually downloaded file to your path or to `tools/hemtt/`where the build scripts will also check.
@@ -57,7 +56,6 @@ _Adaoted from [the HEMTT book](https://hemtt.dev/installation/arma3tools.html)_
 HEMTT will use your installation of Arma 3 Tools to binarize supported files (p3d, rtm, wrp).
 
 ### Installation
-
 #### Windows
 Install Arma 3 Tools using [Steam](https://store.steampowered.com/app/233800/Arma_3_Tools/). After installation, run the tools at least once to ensure the registry keys are set.
 
