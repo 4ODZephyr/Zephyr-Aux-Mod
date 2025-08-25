@@ -1,5 +1,6 @@
 # Code Style
 This is the code style that I like to use in my projects, feel free to adapt it to your preferences.
+
 ## Class Names
 `PboName_FolderStructure_ItemName_Variants`
 
