@@ -15,9 +15,10 @@ class CfgPatches
 
 class CfgTCPRanks
 {
-	class ZephyrCommon
+	class Zephyr
 	{
-		Scope = 0;
+		scope = 2;
+		displayName = "Zephyr Ranks";
 		class Ranks
 		{
 			class E01_Cadet
@@ -48,14 +49,6 @@ class CfgTCPRanks
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-		};
-	};
-	class ZephyrGeneralTrack : ZephyrCommon
-	{
-		Scope = 2;
-		displayName = "Zephyr General Track";
-		class Ranks : Ranks
-		{
 			class E05_Specialist
 			{
 				displayName = "Specialist";
@@ -98,14 +91,6 @@ class CfgTCPRanks
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-		};
-	};
-	class ZephyrLeadershipTrack : ZephyrCommon
-	{
-		Scope = 2;
-		displayName = "Zephyr Leadership Track";
-		class Ranks : Ranks
-		{
 			class O05_Corporal
 			{
 				displayName = "Corporal";
