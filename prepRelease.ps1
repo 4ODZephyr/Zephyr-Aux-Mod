@@ -19,8 +19,17 @@ if (-not $CI) {
 $changelogContent = Get-Content "changelog.md"
 
 # Check if the Unreleased section is empty or contains only blank lines
-$unreleasedSection = ($changelogContent -join "`n") -match "(?s)(?<=## Unreleased`n).*?(?=## \d+\.\d+\.\d+|$)"
-$unreleasedSectionContent = $matches[0] -replace "`n", "" -replace "`r", ""
+$matchFound = ($changelogContent -join "`n") -match "(?s)(?<=## Unreleased`n).*?(?=## \d+\.\d+\.\d+|$)"
+$unreleasedSectionContent = ""
+
+if (-not $matchFound)
+{
+	Write-Warning "No '## Unreleased' section found in changelog.md. Assuming it's empty."
+}
+else
+{
+	$unreleasedSectionContent = $matches[0] -replace "`n", "" -replace "`r", ""
+}
 
 if ($unreleasedSectionContent -and $unreleasedSectionContent -notmatch "^\s*$") {
 	Write-Error "The '## Unreleased' section in changelog.md must be empty or contain only blank lines. Please move the changes to a new version section."
@@ -31,7 +40,7 @@ if ($unreleasedSectionContent -and $unreleasedSectionContent -notmatch "^\s*$") 
 }
 $newVersionLine = $changelogContent | Select-String -Pattern "^## \d+\.\d+\.\d+" | Select-Object -First 1
 
-if ($newVersionLine -eq $null) {
+if ($null -eq $newVersionLine) {
 	if ($CI) {
 		Write-Error "Could not find a version number in changelog.md and cannot prompt for input in CI mode."
 		exit 1

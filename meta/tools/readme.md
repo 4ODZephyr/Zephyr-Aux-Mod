@@ -5,6 +5,7 @@ Odd things that Lupus590 developed/found to help with mod development
 Filename: pboDecompiler.ps1
 ### Notes
 Lupus590 wrote this for her machine, it probably will need some editing to work on yours.
+If it can't decompile a mod, or you want something easier to use then I have had success with Eliteness and the AIO toolset from Mikero [https://mikero.bytex.digital/Downloads](https://mikero.bytex.digital/Downloads)
 ### requirements
 * Arma 3 Tools
 * PBO unpacker
