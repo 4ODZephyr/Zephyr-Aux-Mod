@@ -18,7 +18,7 @@ class CfgTCPRanks
 	class Zephyr
 	{
 		scope = 2;
-		displayName = "Zephyr Ranks";
+		displayName = "Zephyr";
 		class Ranks
 		{
 			class E01_Cadet
