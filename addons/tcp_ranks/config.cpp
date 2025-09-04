@@ -20,30 +20,30 @@ class CfgTCPRanks
 		Scope = 0;
 		class Ranks
 		{
-			class Cadet
+			class E01_Cadet
 			{
-				displayName = "E1 Cadet";
+				displayName = "Cadet";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class Private
+			class E02_Private
 			{
-				displayName = "E2 Private";
+				displayName = "Private";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class PrivateFirstClass
+			class E03_PrivateFirstClass
 			{
-				displayName = "E3 Private First Class";
+				displayName = "Private First Class";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class LanceCorporal
+			class E04_LanceCorporal
 			{
-				displayName = "E4 Lance Corporal";
+				displayName = "Lance Corporal";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
@@ -56,44 +56,44 @@ class CfgTCPRanks
 		displayName = "Zephyr General Track";
 		class Ranks : Ranks
 		{
-			class Specialist
+			class E05_Specialist
 			{
-				displayName = "E5 Specialist";
+				displayName = "Specialist";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class WarrentOfficer
+			class E06_WarrentOfficer
 			{
-				displayName = "E6 Warrent Officer";
+				displayName = "Warrent Officer";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class ChiefWarrentOfficer
+			class E07_ChiefWarrentOfficer
 			{
-				displayName = "E7 Chief Warrent Officer";
+				displayName = "Chief Warrent Officer";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class PettytOfficer
+			class E08_PettyOfficer
 			{
-				displayName = "E8 Petty Officer";
+				displayName = "Petty Officer";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class ChiefPettyOfficer
+			class E09_ChiefPettyOfficer
 			{
-				displayName = "E9 Chief Petty Officer";
+				displayName = "Chief Petty Officer";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class SeniorChiefPettyOfficer
+			class E10_SeniorChiefPettyOfficer
 			{
-				displayName = "E10 Senior Chief Petty Officer";
+				displayName = "Senior Chief Petty Officer";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
@@ -106,44 +106,44 @@ class CfgTCPRanks
 		displayName = "Zephyr Leadership Track";
 		class Ranks : Ranks
 		{
-			class Corporal
+			class O05_Corporal
 			{
-				displayName = "O5 Corporal";
+				displayName = "Corporal";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class Sergeant
+			class O06_Sergeant
 			{
-				displayName = "O6 Sergeant";
+				displayName = "Sergeant";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class StaffSergeant
+			class O07_StaffSergeant
 			{
-				displayName = "O7 Staff Sergeant";
+				displayName = "Staff Sergeant";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class 2ndLieutenant
+			class O08_2ndLieutenant
 			{
-				displayName = "O8 2nd Lieutenant";
+				displayName = "2nd Lieutenant";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class 1stLieutenant
+			class O09_1stLieutenant
 			{
-				displayName = "O9 1st Lieutenant";
+				displayName = "1st Lieutenant";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
-			class Captain
+			class O10_Captain
 			{
-				displayName = "O10 Captain";
+				displayName = "Captain";
 				black = "\TCP\Data\Decals\Ranks\UNICOM\Black\rank_E1_CA.paa";
 				white = "\TCP\Data\Decals\Ranks\UNICOM\White\rank_E1_CA.paa";
 				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
