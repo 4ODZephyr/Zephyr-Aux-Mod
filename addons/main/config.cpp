@@ -16,10 +16,14 @@ class CfgPatches
 	};
 };
 
-class CfgSettings {
-	class CBA {
-		class Versioning { // https://github.com/CBATeam/CBA_A3/wiki/Versioning-System
-			class Zephyr_Main {
+class CfgSettings
+{
+	class CBA
+	{
+		class Versioning // https://github.com/CBATeam/CBA_A3/wiki/Versioning-System
+		{
+			class Zephyr_Main
+			{
 				main_addon = "Zephyr_Main";
 			};
 		};
