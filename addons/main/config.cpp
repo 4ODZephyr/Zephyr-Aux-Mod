@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"CBA_settings",
+			"TCP_Data",
 		};
 		VERSION_CONFIG;
 	};
@@ -28,4 +29,14 @@ class CfgSettings
 			};
 		};
 	};
+};
+
+class CfgDiscordRichPresence
+{
+	applicationID = "805901921554006056";
+	defaultLargeImageKey = "zephyr-logo";
+	defaultLargeImageText = "4th Orion Division Zephyr";
+	defaultSmallImageKey = "arma3logo";
+	defaultSmallImageText = "Arma 3";
+	useTimeElapsed = 1;
 };
