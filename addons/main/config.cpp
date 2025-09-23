@@ -10,6 +10,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredAddons[] =
 		{
+			"CBA_settings",
 		};
 		VERSION_CONFIG;
 	};
