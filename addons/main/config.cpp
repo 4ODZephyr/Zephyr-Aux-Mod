@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"CBA_settings",
+			"Zephyr_TCP_Weapons",
 		};
 		VERSION_CONFIG;
 	};
