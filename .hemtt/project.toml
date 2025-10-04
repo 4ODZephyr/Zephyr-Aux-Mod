@@ -9,7 +9,7 @@ git_hash = 0 # It's a shame that I can't get this to work
 
 [files]
 include = [
-	"logo.paa",
+	"zephyr-logo.paa",
 	"changelog.md",
 	"mod.cpp",
 ]
