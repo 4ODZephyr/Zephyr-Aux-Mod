@@ -1,15 +1,15 @@
 name = "Zephyr Aux Mod"
 author = "Lupus590"
-prefix = "4ODZ"
+prefix = "Zephyr"
 mainprefix = "z"
 
 [version]
-path = "addons/main/script_version.hpp"
+path = "addons/core/script_version.hpp"
 git_hash = 0 # It's a shame that I can't get this to work
 
 [files]
 include = [
-	"logo.paa",
+	"zephyr-logo.paa",
 	"changelog.md",
 	"mod.cpp",
 ]
