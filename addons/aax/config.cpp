@@ -1,15 +1,16 @@
 class CfgPatches
 {
-	class Zephyr_AAX_TCP
+	class Zephyr_AAX
 	{
-		addonRootClass = "Zephyr_AAX";
-		name = "Zepgyr - AAX - TCP";
+		addonRootClass = "Zephyr_Core";
+		name = "Zepgyr - AAX";
 		author = "RoutOfWolves";
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] =
 		{
-			"Zephyr_AAX",
+			"Zephyr_Core",
+			"aceax_gearinfo",
 			// TODO: what's the TCP addon name?
 		};
 		skipWhenMissingDependencies = 1;
