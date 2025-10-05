@@ -1,13 +1,14 @@
 class CfgPatches
 {
-	class 4ODZ_TCP_Ranks
+	class Zephyr_TCP_Ranks
 	{
-		name = "TCP Ranks";
+		name = "Zephyr - TCP Ranks";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] =
 		{
+			"Zephyr_Core",
 			"TCP_Data",
 		};
 	};
