@@ -3,7 +3,7 @@ class CfgPatches
 	class Zephyr_AAX_TCP
 	{
 		addonRootClass = "Zephyr_AAX";
-		name = "Zepgyr - AAX - TCP";
+		name = "Zephyr - AAX - TCP";
 		author = "RoutOfWolves";
 		units[] = {};
 		weapons[] = {};
