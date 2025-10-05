@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class Zephyr_TCP_Weapons
 	{
-		name = "TCP Weapons";
+		name = "Zephyr - TCP Weapons";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
