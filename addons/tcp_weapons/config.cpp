@@ -9,6 +9,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"TCP_Weapons_Ammo_40",
+			"OPTRE_Weapons_Ammo",
 		};
 		skipWhenMissingDependencies = 1;
 	};
