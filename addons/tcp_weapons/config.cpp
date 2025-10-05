@@ -2,12 +2,14 @@ class CfgPatches
 {
 	class Zephyr_TCP_Weapons
 	{
+		addonRootClass = "Zephyr_Core";
 		name = "Zephyr - TCP Weapons";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] =
 		{
+			"Zephyr_Core",
 			"TCP_Weapons_Ammo_40",
 			"OPTRE_Weapons_Ammo",
 		};
