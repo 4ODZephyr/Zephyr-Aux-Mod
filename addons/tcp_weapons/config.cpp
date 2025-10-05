@@ -10,6 +10,7 @@ class CfgPatches
 		{
 			"TCP_Weapons_Ammo_40",
 		};
+		skipWhenMissingDependencies = 1;
 	};
 };
 class CfgMagazineWells
