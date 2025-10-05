@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class Zephyr_Core
 	{
-		name = "Zephyr Core";
+		name = "Zephyr - Core";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
