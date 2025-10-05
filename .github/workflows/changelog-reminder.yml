@@ -13,4 +13,3 @@ jobs:
         with:
           changelogRegex: "changelog.md"
           message: "Please remember to update the changelog."
-
