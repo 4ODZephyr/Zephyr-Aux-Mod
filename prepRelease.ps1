@@ -69,3 +69,4 @@ $scriptVersionContent = $scriptVersionContent -replace "(?<=#define BUILD )\d+",
 Set-Content -Path $scriptVersionPath -Value $scriptVersionContent
 
 Write-Output "Updated script_version.hpp to version $newVersion."
+exit 0
