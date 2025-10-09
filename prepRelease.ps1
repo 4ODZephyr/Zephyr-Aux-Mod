@@ -60,7 +60,7 @@ $patch = $versionParts[2]
 $build = (Get-Date).ToString("yyyyMMdd")
 
 # update version in script_version.hpp
-$scriptVersionPath = "addons/main/script_version.hpp"
+$scriptVersionPath = "addons/core/script_version.hpp"
 $scriptVersionContent = Get-Content $scriptVersionPath
 $scriptVersionContent = $scriptVersionContent -replace "(?<=#define MAJOR )\d+", $major
 $scriptVersionContent = $scriptVersionContent -replace "(?<=#define MINOR )\d+", $minor
