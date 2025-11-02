@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Zephyr_Unit_Patch
+	class Zephyr_UnitPatch
 	{
 		addonRootClass = "Zephyr_Core";
 		name = "Zephyr - Unit Patch";
