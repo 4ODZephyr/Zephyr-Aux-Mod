@@ -19,7 +19,7 @@ class Zephyr_AAX_TCP_CBUU_FieldTop
 			"Tundra",
 			"Urban",
 			"White",
-			"Woodland"
+			"Woodland",
 		};
 		changeingame=0;
 		alwaysSelectable=1;
@@ -182,7 +182,7 @@ class Zephyr_AAX_TCP_CBUU_TacShirt
 			"Tundra",
 			"Urban",
 			"White",
-			"Woodland"
+			"Woodland",
 		};
 		changeingame=0;
 		alwaysSelectable=1;
@@ -324,7 +324,6 @@ class Zephyr_AAX_TCP_CBUU_TacShirt
 		};
 	};
 };
-
 class Zephyr_AAX_TCP_CBUU_TShirt
 {
 	label = "CBUU TShirt";
@@ -346,7 +345,7 @@ class Zephyr_AAX_TCP_CBUU_TShirt
 			"Tundra",
 			"Urban",
 			"White",
-			"Woodland"
+			"Woodland",
 		};
 		changeingame=0;
 		alwaysSelectable=1;
