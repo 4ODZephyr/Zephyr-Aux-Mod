@@ -9,7 +9,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredAddons[] =
 		{
-			// TODO: need to find from TCP
+			"TCP_Characters_BLUFOR_UNSC_Army_Uniforms_CBUU",
 		};
 	};
 };
