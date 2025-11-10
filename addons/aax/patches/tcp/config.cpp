@@ -19,6 +19,12 @@ class XtdGearModels
 	class CfgWeapons
 	{
 		#include "data\uniforms_model.hpp"
+		//#include "data\vests_model.hpp"
+		//#include "data\headgear_model.hpp"
+	};
+	class CfgGlasses
+	{
+		//#include "data\facewear_model.hpp"
 	};
 };
 class XtdGearInfos
@@ -26,5 +32,11 @@ class XtdGearInfos
 	class CfgWeapons
 	{
 		#include "data\uniforms_info.hpp"
+		//#include "data\vests_info.hpp"
+		//#include "data\headgear_info.hpp"
+	};
+	class CfgGlasses
+	{
+		//#include "data\facewear_info.hpp"
 	};
 };
