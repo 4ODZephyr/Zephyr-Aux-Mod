@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		addonRootClass = "Zephyr_Core";
 		name = "Zephyr - AAX";
-		author = "Lupsu590";
+		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] =
