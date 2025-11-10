@@ -13,3 +13,18 @@ class CfgPatches
 		};
 	};
 };
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        #include "data\uniforms_model.hpp"
+    };
+};
+class XtdGearInfos
+{
+    class CfgWeapons
+    {
+        #include "data\uniforms_info.hpp"
+    };
+};
