@@ -64,6 +64,7 @@
 		Pants = "PantsBloused";\
 	};
 // End Macro_Zephyr_AAX_TCP_CBUU_TShirt
+
 #define Macro_Zephyr_AAX_TCP_CBUU_TacShirt(ArgCamo)\
 	class TCP_U_B_CBUU_TacShirt_Full_##ArgCamo##\
 	{\
@@ -354,6 +355,7 @@
 		Collar = "CollarUnzipped";\
 	};
 // End Macro_Zephyr_AAX_TCP_CBUU_TacShirt
+
 #define Macro_Zephyr_AAX_TCP_CBUU_FieldTop(ArgCamo)\
 	class TCP_U_B_CBUU_FieldTop_Full_##ArgCamo##\
 	{\
@@ -644,7 +646,6 @@
 		Collar = "CollarUnzipped";\
 	};
 // End Macro_Zephyr_AAX_TCP_CBUU_FieldTop
-
 
 #define Macro_Zephyr_AAX_TCP_CBUU_All(ArgCamo)\
 	Macro_Zephyr_AAX_TCP_CBUU_TShirt(ArgCamo)\
