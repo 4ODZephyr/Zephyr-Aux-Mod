@@ -26,4 +26,4 @@ jobs:
             "A new Todo was discovered. If it is not a priority right now,\
             consider marking it for later attention.\n{todo}\n"
           comment_checkbox: 'Ignore'
-          custom_todo_matcher: "{'js': ['//', '/*'], 'py': ['#']}"
+          custom_todo_matcher: "{'cpp': ['//', '/*'], 'hpp': ['//', '/*']}"
