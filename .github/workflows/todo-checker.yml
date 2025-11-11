@@ -11,10 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-
+    
       - name: Check for Todos
         uses: phntmxyz/pr_todo_checker@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          exclude: |
+            *.md
+            **/config/*.yml
+          comment_on_todo: true
+          comment_body: |
+            "A new Todo was discovered. If it is not a priority right now,\
+            consider marking it for later attention.\n{todo}\n"
+          comment_checkbox: 'Ignore'
+          custom_todo_matcher: "{'js': ['//', '/*'], 'py': ['#']}"
