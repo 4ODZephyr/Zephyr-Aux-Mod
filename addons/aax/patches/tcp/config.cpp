@@ -10,6 +10,8 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"TCP_Characters_BLUFOR_UNSC_Army_Uniforms_CBUU",
+			"TCP_Characters_BLUFOR_UNSC_Army_Vests_M43A",
+			"TCP_Characters_BLUFOR_UNSC_Marines_Vests_M43D",
 		};
 	};
 };
