@@ -1,17 +1,20 @@
-name: TODO Checker
+name: PR Todo Checker
 
 on:
+  pull_request_review_comment:
+    types: [edited, deleted]
   pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
-  find-todos:
+  find_todos:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Simple TODO Checker
-        uses: damienjburks/simple-todo-checker@1.0.0
+      - name: Check for Todos
+        uses: phntmxyz/pr_todo_checker@v1
         with:
-          path: "." # Scan default folder as this is required.
+          token: ${{ secrets.GITHUB_TOKEN }}
