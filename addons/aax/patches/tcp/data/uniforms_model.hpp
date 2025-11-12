@@ -2,7 +2,7 @@ class Zephyr_AAX_TCP_CBUU_FieldTop
 {
 	label = "CBUU Field Top";
 	author = "Lupus590";
-	options[] = {"camo", "Sleeves", "Gloves", "Pants", "Collar", };
+	options[] = {"Camo", "Sleeves", "Gloves", "Pants", "Collar", };
 	class Camo
 	{
 		label= "Camo";
@@ -165,7 +165,7 @@ class Zephyr_AAX_TCP_CBUU_TacShirt
 {
 	label = "CBUU Tac-Shirt";
 	author = "Lupus590";
-	options[] = {"camo", "Sleeves", "Gloves", "Pants", "Collar", };
+	options[] = {"Camo", "Sleeves", "Gloves", "Pants", "Collar", };
 	class Camo
 	{
 		label= "Camo";

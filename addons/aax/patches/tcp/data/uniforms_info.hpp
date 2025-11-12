@@ -2,7 +2,7 @@
 	class TCP_U_B_CBUU_TShirt_Tucked_##ArgCamo##\
 	{\
 		model = "Zephyr_AAX_TCP_CBUU_TShirt";\
-		camo = #ArgCamo;\
+		Camo = #ArgCamo;\
 		Shirt = "ShirtTucked";\
 		Gloves = "GlovesOff";\
 		Pants = "PantsUnbloused";\
@@ -10,7 +10,7 @@
 	class TCP_U_B_CBUU_TShirt_Tucked_Bloused_##ArgCamo##\
 	{\
 		model = "Zephyr_AAX_TCP_CBUU_TShirt";\
-		camo = #ArgCamo;\
+		Camo = #ArgCamo;\
 		Shirt = "ShirtTucked";\
 		Gloves = "GlovesOff";\
 		Pants = "PantsBloused";\
@@ -18,7 +18,7 @@
 	class TCP_U_B_CBUU_TShirt_Tucked_Gloves_##ArgCamo##\
 	{\
 		model = "Zephyr_AAX_TCP_CBUU_TShirt";\
-		camo = #ArgCamo;\
+		Camo = #ArgCamo;\
 		Shirt = "ShirtTucked";\
 		Gloves = "GlovesOn";\
 		Pants = "PantsUnbloused";\
@@ -26,7 +26,7 @@
 	class TCP_U_B_CBUU_TShirt_Tucked_Gloves_Bloused_##ArgCamo##\
 	{\
 		model = "Zephyr_AAX_TCP_CBUU_TShirt";\
-		camo = #ArgCamo;\
+		Camo = #ArgCamo;\
 		Shirt = "ShirtTucked";\
 		Gloves = "GlovesOn";\
 		Pants = "PantsBloused";\
@@ -34,7 +34,7 @@
 	class TCP_U_B_CBUU_TShirt_Untucked_##ArgCamo##\
 	{\
 		model = "Zephyr_AAX_TCP_CBUU_TShirt";\
-		camo = #ArgCamo;\
+		Camo = #ArgCamo;\
 		Shirt = "ShirtUntucked";\
 		Gloves = "GlovesOff";\
 		Pants = "PantsUnbloused";\

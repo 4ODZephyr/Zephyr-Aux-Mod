@@ -2,7 +2,7 @@ class Zephyr_AAX_TCP_CBBAS_M43A
 {
 	label = "M43/A CBBAS";
 	author = "Lupus590";
-	options[] = {"camo", "ShoulderArmor", "ExtraArmor", };
+	options[] = {"Camo", "ShoulderArmor", "ExtraArmor", };
 	class Camo
 	{
 		label= "Camo";
@@ -113,7 +113,7 @@ class Zephyr_AAX_TCP_CBBAS_M43D
 {
 	label = "M43/D CBBAS (Black)";
 	author = "Lupus590";
-	options[] = {"camo", "ShoulderArmor", "ExtraArmor"};
+	options[] = {"Camo", "ShoulderArmor", "ExtraArmor"};
 	class Camo
 	{
 		label = "Camo";
