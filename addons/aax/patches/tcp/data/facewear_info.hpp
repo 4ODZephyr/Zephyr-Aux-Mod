@@ -13,13 +13,11 @@
 // End Macro_Zephyr_AAX_TCP_TacticalGlasses
 
 Macro_Zephyr_AAX_TCP_Balaclava(Black)
-Macro_Zephyr_AAX_TCP_Balaclava(Brown)
 Macro_Zephyr_AAX_TCP_Balaclava(Gray)
 Macro_Zephyr_AAX_TCP_Balaclava(Green)
 Macro_Zephyr_AAX_TCP_Balaclava(Olive)
 Macro_Zephyr_AAX_TCP_Balaclava(Tan)
 Macro_Zephyr_AAX_TCP_Balaclava(White)
-Macro_Zephyr_AAX_TCP_Balaclava(Woodland)
 
 Macro_Zephyr_AAX_TCP_TacticalGlasses(Black)
 Macro_Zephyr_AAX_TCP_TacticalGlasses(Blue)
