@@ -41,3 +41,40 @@ class Zephyr_AAX_TCP_TacticalGlasses
 		alwaysSelectable=1;
 	};
 };
+
+class Zephyr_AAX_TCP_BalaclavaTacticalGlasses
+{
+	label = "Balaclava with Tactical Glasses";
+	author = "Lupus590";
+	options[] = {"Camo", "Color", };
+	class Camo
+	{
+		label= "Camo";
+		values[]=
+		{
+			"Black",
+			"Gray",
+			"Green",
+			"Olive",
+			"Tan",
+			"White",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+	class Color
+	{
+		label= "Color";
+		values[]=
+		{
+			"Black",
+			"Blue",
+			"Gold",
+			"Red",
+			"Silver",
+			"Yellow",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+};

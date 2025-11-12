@@ -12,6 +12,23 @@
 	};
 // End Macro_Zephyr_AAX_TCP_TacticalGlasses
 
+#define Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo, ArgColor) \
+	class TCP_G_BalaclavaTacticalGlasses_##ArgCamo##_##ArgColor## { \
+		model = "Zephyr_AAX_TCP_BalaclavaTacticalGlasses"; \
+		Camo = #ArgCamo; \
+		Color = #ArgColor; \
+	};
+// End Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses
+
+#define Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(ArgCamo) \
+	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Black) \
+	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Blue) \
+	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Gold) \
+	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Red) \
+	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Silver) \
+	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Yellow)
+// End Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2
+
 Macro_Zephyr_AAX_TCP_Balaclava(Black)
 Macro_Zephyr_AAX_TCP_Balaclava(Gray)
 Macro_Zephyr_AAX_TCP_Balaclava(Green)
@@ -25,3 +42,10 @@ Macro_Zephyr_AAX_TCP_TacticalGlasses(Gold)
 Macro_Zephyr_AAX_TCP_TacticalGlasses(Red)
 Macro_Zephyr_AAX_TCP_TacticalGlasses(Silver)
 Macro_Zephyr_AAX_TCP_TacticalGlasses(Yellow)
+
+Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(Black)
+Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(Gray)
+Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(Green)
+Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(Olive)
+Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(Tan)
+Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses2(White)
