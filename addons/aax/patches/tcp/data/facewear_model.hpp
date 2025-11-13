@@ -5,8 +5,8 @@ class Zephyr_AAX_TCP_Balaclava
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Gray",
@@ -15,8 +15,8 @@ class Zephyr_AAX_TCP_Balaclava
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -27,8 +27,8 @@ class Zephyr_AAX_TCP_TacticalGlasses
 	options[] = {"Color", };
 	class Color
 	{
-		label= "Color";
-		values[]=
+		label = "Color";
+		values[] =
 		{
 			"Black",
 			"Blue",
@@ -37,8 +37,8 @@ class Zephyr_AAX_TCP_TacticalGlasses
 			"Silver",
 			"Yellow",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -49,8 +49,8 @@ class Zephyr_AAX_TCP_BalaclavaTacticalGlasses
 	options[] = {"Camo", "Color", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Gray",
@@ -59,13 +59,13 @@ class Zephyr_AAX_TCP_BalaclavaTacticalGlasses
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Color
 	{
-		label= "Color";
-		values[]=
+		label = "Color";
+		values[] =
 		{
 			"Black",
 			"Blue",
@@ -74,7 +74,7 @@ class Zephyr_AAX_TCP_BalaclavaTacticalGlasses
 			"Silver",
 			"Yellow",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };

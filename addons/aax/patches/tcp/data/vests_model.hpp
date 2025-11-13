@@ -5,8 +5,8 @@ class Zephyr_AAX_TCP_CBBAS_M43A
 	options[] = {"Camo", "ShoulderArmor", "ExtraArmor", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Brown",
@@ -16,8 +16,8 @@ class Zephyr_AAX_TCP_CBBAS_M43A
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class ShoulderArmor
 	{

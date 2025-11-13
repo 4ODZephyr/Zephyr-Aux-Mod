@@ -5,8 +5,8 @@ class Zephyr_AAX_TCP_CBUU_FieldTop
 	options[] = {"Camo", "Sleeves", "Gloves", "Pants", "Collar", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Arctic",
 			"Arid",
@@ -21,8 +21,8 @@ class Zephyr_AAX_TCP_CBUU_FieldTop
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Sleeves
 	{
@@ -168,8 +168,8 @@ class Zephyr_AAX_TCP_CBUU_TacShirt
 	options[] = {"Camo", "Sleeves", "Gloves", "Pants", "Collar", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Arctic",
 			"Arid",
@@ -184,8 +184,8 @@ class Zephyr_AAX_TCP_CBUU_TacShirt
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Sleeves
 	{
@@ -331,8 +331,8 @@ class Zephyr_AAX_TCP_CBUU_TShirt
 	options[] = {"Camo", "Shirt", "Gloves", "Pants", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Arctic",
 			"Arid",
@@ -347,8 +347,8 @@ class Zephyr_AAX_TCP_CBUU_TShirt
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Shirt
 	{

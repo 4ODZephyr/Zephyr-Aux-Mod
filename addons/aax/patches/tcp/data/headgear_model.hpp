@@ -5,8 +5,8 @@ class Zephyr_AAX_TCP_UtilityCover
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Arctic",
 			"Arid",
@@ -21,8 +21,8 @@ class Zephyr_AAX_TCP_UtilityCover
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -33,8 +33,8 @@ class Zephyr_AAX_TCP_Beret
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Blue",
@@ -42,8 +42,8 @@ class Zephyr_AAX_TCP_Beret
 			"Red",
 			"Tan",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -54,8 +54,8 @@ class Zephyr_AAX_TCP_UtilityCap
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Gray",
@@ -64,8 +64,8 @@ class Zephyr_AAX_TCP_UtilityCap
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -76,8 +76,8 @@ class Zephyr_AAX_TCP_WatchCap
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Gray",
@@ -86,8 +86,8 @@ class Zephyr_AAX_TCP_WatchCap
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -98,8 +98,8 @@ class Zephyr_AAX_TCP_PatrolCap
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Arctic",
 			"Arid",
@@ -114,8 +114,8 @@ class Zephyr_AAX_TCP_PatrolCap
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -126,8 +126,8 @@ class Zephyr_AAX_TCP_CH43A
 	options[] = {"Camo", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Brown",
@@ -136,8 +136,8 @@ class Zephyr_AAX_TCP_CH43A
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -148,18 +148,18 @@ class Zephyr_AAX_TCP_ECH55D
 	options[] = {"Camo", "Color", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Color
 	{
-		label= "Visor Color";
-		values[]=
+		label = "Visor Color";
+		values[] =
 		{
 			"Black",
 			"Blue",
@@ -167,8 +167,8 @@ class Zephyr_AAX_TCP_ECH55D
 			"Red",
 			"Silver",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -179,8 +179,8 @@ class Zephyr_AAX_TCP_ECH35J
 	options[] = {"Camo", "Color", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Brown",
@@ -189,13 +189,13 @@ class Zephyr_AAX_TCP_ECH35J
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Color
 	{
-		label= "Visor Color";
-		values[]=
+		label = "Visor Color";
+		values[] =
 		{
 			"Black",
 			"Blue",
@@ -203,8 +203,8 @@ class Zephyr_AAX_TCP_ECH35J
 			"Red",
 			"Silver",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -215,8 +215,8 @@ class Zephyr_AAX_TCP_ECH43A
 	options[] = {"Camo", "Color", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Brown",
@@ -225,13 +225,13 @@ class Zephyr_AAX_TCP_ECH43A
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Color
 	{
-		label= "Visor Color";
-		values[]=
+		label = "Visor Color";
+		values[] =
 		{
 			"Black",
 			"Blue",
@@ -240,8 +240,8 @@ class Zephyr_AAX_TCP_ECH43A
 			"Silver",
 			"Yellow",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -252,8 +252,8 @@ class Zephyr_AAX_TCP_Cap
 	options[] = {"Camo", "Orientation", "Tactical", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Black",
 			"Gray",
@@ -262,19 +262,19 @@ class Zephyr_AAX_TCP_Cap
 			"Tan",
 			"White",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Orientation
 	{
-		label= "Orientation";
-		values[]=
+		label = "Orientation";
+		values[] =
 		{
 			"OrientationForwards",
 			"OrientationBackwards",
 		};
-		changeingame=1;
-		alwaysSelectable=1;
+		changeingame = 1;
+		alwaysSelectable = 1;
 		class OrientationForwards
 		{
 			label = "Forwards";
@@ -298,14 +298,14 @@ class Zephyr_AAX_TCP_Cap
 	};
 	class Tactical
 	{
-		label= "Tactical";
-		values[]=
+		label = "Tactical";
+		values[] =
 		{
 			"Yes",
 			"No",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 };
 
@@ -316,8 +316,8 @@ class Zephyr_AAX_TCP_BoonieHat
 	options[] = {"Camo", "Fold", };
 	class Camo
 	{
-		label= "Camo";
-		values[]=
+		label = "Camo";
+		values[] =
 		{
 			"Arctic",
 			"Arid",
@@ -332,21 +332,21 @@ class Zephyr_AAX_TCP_BoonieHat
 			"White",
 			"Woodland",
 		};
-		changeingame=0;
-		alwaysSelectable=1;
+		changeingame = 0;
+		alwaysSelectable = 1;
 	};
 	class Fold
 	{
-		label= "Brim Fold";
-		values[]=
+		label = "Brim Fold";
+		values[] =
 		{
 			"FoldNone",
 			"FoldLeft",
 			"FoldRight",
 			"FoldBoth",
 		};
-		changeingame=1;
-		alwaysSelectable=1;
+		changeingame = 1;
+		alwaysSelectable = 1;
 		class FoldNone
 		{
 			label = "Unfolded";
