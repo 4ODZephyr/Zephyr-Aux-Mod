@@ -207,3 +207,40 @@ class Zephyr_AAX_TCP_ECH35J
 		alwaysSelectable=1;
 	};
 };
+
+class Zephyr_AAX_TCP_ECH43A
+{
+	label = "ECH43/A Helmet";
+	author = "Lupus590";
+	options[] = {"Camo", "Color", };
+	class Camo
+	{
+		label= "Camo";
+		values[]=
+		{
+			"Black",
+			"Brown",
+			"Green",
+			"Olive",
+			"Tan",
+			"White",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+	class Color
+	{
+		label= "Visor Color";
+		values[]=
+		{
+			"Black",
+			"Blue",
+			"Gold",
+			"Red",
+			"Silver",
+			"Yellow",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+};
