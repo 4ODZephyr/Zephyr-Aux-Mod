@@ -15,6 +15,11 @@ class CfgPatches
 			"TCP_Characters_BLUFOR_UNSC_Army_Facewear_balaclava",
 			"TCP_Characters_BLUFOR_UNSC_Army_Facewear_tacticalGlasses",
 			"TCP_Characters_BLUFOR_UNSC_Army_Facewear_balaclavaTacticalGlasses",
+			"TCP_Characters_BLUFOR_UNSC_Marines_Headgear_utilityCover",
+			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_beret",
+			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_utilityCap",
+			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_watchCap",
+			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_patrolCap",
 		};
 	};
 };
