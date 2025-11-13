@@ -1,24 +1,27 @@
 #define Macro_Zephyr_AAX_TCP_Balaclava(ArgCamo) \
-	class TCP_G_Balaclava_##ArgCamo## { \
+	class TCP_G_Balaclava_##ArgCamo## \
+	{ \
 		model = "Zephyr_AAX_TCP_Balaclava"; \
 		Camo = #ArgCamo; \
 	};
-// End Macro_Zephyr_AAX_TCP_Balaclava
+// end Macro_Zephyr_AAX_TCP_Balaclava
 
 #define Macro_Zephyr_AAX_TCP_TacticalGlasses(ArgColor) \
-	class TCP_G_TacticalGlasses_##ArgColor## { \
+	class TCP_G_TacticalGlasses_##ArgColor## \
+	{ \
 		model = "Zephyr_AAX_TCP_TacticalGlasses"; \
 		Color = #ArgColor; \
 	};
-// End Macro_Zephyr_AAX_TCP_TacticalGlasses
+// end Macro_Zephyr_AAX_TCP_TacticalGlasses
 
 #define Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo, ArgColor) \
-	class TCP_G_BalaclavaTacticalGlasses_##ArgCamo##_##ArgColor## { \
+	class TCP_G_BalaclavaTacticalGlasses_##ArgCamo##_##ArgColor## \
+	{ \
 		model = "Zephyr_AAX_TCP_BalaclavaTacticalGlasses"; \
 		Camo = #ArgCamo; \
 		Color = #ArgColor; \
 	};
-// End Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses
+// end Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses
 
 #define Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses_AllForCamo(ArgCamo) \
 	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Black) \
@@ -27,7 +30,7 @@
 	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Red) \
 	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Silver) \
 	Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses(ArgCamo,Yellow)
-// End Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses_AllForCamo
+// end Macro_Zephyr_AAX_TCP_BalaclavaTacticalGlasses_AllForCamo
 
 Macro_Zephyr_AAX_TCP_Balaclava(Black)
 Macro_Zephyr_AAX_TCP_Balaclava(Gray)

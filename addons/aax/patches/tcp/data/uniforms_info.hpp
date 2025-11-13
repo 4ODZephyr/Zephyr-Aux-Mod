@@ -4,7 +4,7 @@
 	Shirt = #ArgShirt; \
 	Gloves = #ArgGloves; \
 	Pants = #ArgPants;
-// End Macro_Zephyr_AAX_TCP_CBUU_TShirt
+// end Macro_Zephyr_AAX_TCP_CBUU_TShirt
 
 #define Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo(ArgCamo)\
 	class TCP_U_B_CBUU_TShirt_Tucked_##ArgCamo##\
@@ -39,7 +39,7 @@
 	{\
 		Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtUntucked,GlovesOn,PantsBloused)\
 	};
-// End Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo
+// end Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo
 
 #define Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo, ArgSleeves, ArgGloves, ArgPants, ArgCollar) \
 	model = "Zephyr_AAX_TCP_CBUU_TacShirt"; \
@@ -48,7 +48,7 @@
 	Gloves = #ArgGloves; \
 	Pants = #ArgPants; \
 	Collar = #ArgCollar;
-// End Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body
+// end Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body
 
 #define Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo(ArgCamo)\
 	class TCP_U_B_CBUU_TacShirt_Full_##ArgCamo##\
@@ -179,7 +179,7 @@
 	{\
 		Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOn,PantsBloused,CollarUnzipped)\
 	};
-// End Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo
+// end Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo
 
 
 #define Macro_Zephyr_AAX_TCP_CBUU_FieldTop_Body(ArgCamo, ArgSleeves, ArgGloves, ArgPants, ArgCollar) \
@@ -189,7 +189,7 @@
 	Gloves = #ArgGloves; \
 	Pants = #ArgPants; \
 	Collar = #ArgCollar;
-// End Macro_Zephyr_AAX_TCP_CBUU_FieldTop_Body
+// end Macro_Zephyr_AAX_TCP_CBUU_FieldTop_Body
 
 #define Macro_Zephyr_AAX_TCP_CBUU_FieldTop_AllForCamo(ArgCamo)\
 	class TCP_U_B_CBUU_FieldTop_Full_##ArgCamo##\
@@ -320,13 +320,13 @@
 	{\
 		Macro_Zephyr_AAX_TCP_CBUU_FieldTop_Body(ArgCamo,SleevesSlim,GlovesOn,PantsBloused,CollarUnzipped)\
 	};
-// End Macro_Zephyr_AAX_TCP_CBUU_FieldTop_AllForCamo
+// end Macro_Zephyr_AAX_TCP_CBUU_FieldTop_AllForCamo
 
 #define Macro_Zephyr_AAX_TCP_CBUU_All(ArgCamo)\
 	Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo(ArgCamo)\
 	Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo(ArgCamo)\
 	Macro_Zephyr_AAX_TCP_CBUU_FieldTop_AllForCamo(ArgCamo)
-// End Macro_Zephyr_AAX_TCP_CBUU_All
+// end Macro_Zephyr_AAX_TCP_CBUU_All
 
 Macro_Zephyr_AAX_TCP_CBUU_All(Arctic)
 Macro_Zephyr_AAX_TCP_CBUU_All(Arid)
