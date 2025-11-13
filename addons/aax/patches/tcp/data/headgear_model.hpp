@@ -244,3 +244,47 @@ class Zephyr_AAX_TCP_ECH43A
 		alwaysSelectable=1;
 	};
 };
+
+class Zephyr_AAX_TCP_Cap
+{
+	label = "Tactical Cap";
+	author = "Lupus590";
+	options[] = {"Camo", "Orientation", "Tactical", };
+	class Camo
+	{
+		label= "Camo";
+		values[]=
+		{
+			"Black",
+			"Gray",
+			"Green",
+			"Olive",
+			"Tan",
+			"White",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+	class Orientation
+	{
+		label= "Orientation";
+		values[]=
+		{
+			"Forwards",
+			"Reversed",
+		};
+		changeingame=1;
+		alwaysSelectable=1;
+	};
+	class Tactical
+	{
+		label= "Tactical";
+		values[]=
+		{
+			"Yes",
+			"No",
+		};
+		changeingame=1;
+		alwaysSelectable=1;
+	};
+};

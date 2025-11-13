@@ -166,3 +166,42 @@ Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(Green)
 Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(Olive)
 Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(Tan)
 Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(White)
+
+
+#define Macro_Zephyr_AAX_TCP_Cap(ArgCamo) \
+	class TCP_H_Cap_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_Cap"; \
+		Camo = #ArgCamo; \
+		Orientation = "Forwards"; \
+		Tactical = "No"; \
+	};\
+	class TCP_H_Cap_Reversed_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_Cap"; \
+		Camo = #ArgCamo; \
+		Orientation = "Reversed"; \
+		Tactical = "No"; \
+	};\
+	class TCP_H_TacticalCap_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_Cap"; \
+		Camo = #ArgCamo; \
+		Orientation = "Forwards"; \
+		Tactical = "Yes"; \
+	};\
+	class TCP_H_TacticalCap_Reversed_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_Cap"; \
+		Camo = #ArgCamo; \
+		Orientation = "Reversed"; \
+		Tactical = "Yes"; \
+	};
+// end Macro_Zephyr_AAX_TCP_Cap
+
+Macro_Zephyr_AAX_TCP_Cap(Black)
+Macro_Zephyr_AAX_TCP_Cap(Gray)
+Macro_Zephyr_AAX_TCP_Cap(Green)
+Macro_Zephyr_AAX_TCP_Cap(Olive)
+Macro_Zephyr_AAX_TCP_Cap(Tan)
+Macro_Zephyr_AAX_TCP_Cap(White)
