@@ -167,7 +167,6 @@ Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(Olive)
 Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(Tan)
 Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(White)
 
-
 #define Macro_Zephyr_AAX_TCP_Cap(ArgCamo) \
 	class TCP_H_Cap_##ArgCamo## \
 	{ \
@@ -205,3 +204,43 @@ Macro_Zephyr_AAX_TCP_Cap(Green)
 Macro_Zephyr_AAX_TCP_Cap(Olive)
 Macro_Zephyr_AAX_TCP_Cap(Tan)
 Macro_Zephyr_AAX_TCP_Cap(White)
+
+#define Macro_Zephyr_AAX_TCP_BoonieHat(ArgCamo) \
+	class TCP_H_boonieHat_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_BoonieHat"; \
+		Camo = #ArgCamo; \
+		Fold = "None"; \
+	};\
+	class TCP_H_boonieHat_Folded_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_BoonieHat"; \
+		Camo = #ArgCamo; \
+		Fold = "Both"; \
+	};\
+	class TCP_H_boonieHat_Folded_Left_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_BoonieHat"; \
+		Camo = #ArgCamo; \
+		Fold = "Left"; \
+	};\
+	class TCP_H_boonieHat_Folded_Right_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_BoonieHat"; \
+		Camo = #ArgCamo; \
+		Fold = "Right"; \
+	};
+// end Macro_Zephyr_AAX_TCP_BoonieHat
+
+Macro_Zephyr_AAX_TCP_BoonieHat(Arctic)
+Macro_Zephyr_AAX_TCP_BoonieHat(Arid)
+Macro_Zephyr_AAX_TCP_BoonieHat(Black)
+Macro_Zephyr_AAX_TCP_BoonieHat(Gray)
+Macro_Zephyr_AAX_TCP_BoonieHat(Green)
+Macro_Zephyr_AAX_TCP_BoonieHat(Olive)
+Macro_Zephyr_AAX_TCP_BoonieHat(Tan)
+Macro_Zephyr_AAX_TCP_BoonieHat(Tropic)
+Macro_Zephyr_AAX_TCP_BoonieHat(Tundra)
+Macro_Zephyr_AAX_TCP_BoonieHat(Urban)
+Macro_Zephyr_AAX_TCP_BoonieHat(White)
+Macro_Zephyr_AAX_TCP_BoonieHat(Woodland)

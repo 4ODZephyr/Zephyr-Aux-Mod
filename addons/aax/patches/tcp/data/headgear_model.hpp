@@ -247,7 +247,7 @@ class Zephyr_AAX_TCP_ECH43A
 
 class Zephyr_AAX_TCP_Cap
 {
-	label = "Tactical Cap";
+	label = "Cap";
 	author = "Lupus590";
 	options[] = {"Camo", "Orientation", "Tactical", };
 	class Camo
@@ -283,6 +283,47 @@ class Zephyr_AAX_TCP_Cap
 		{
 			"Yes",
 			"No",
+		};
+		changeingame=1;
+		alwaysSelectable=1;
+	};
+};
+
+class Zephyr_AAX_TCP_BoonieHat
+{
+	label = "Boonie Hat";
+	author = "Lupus590";
+	options[] = {"Camo", "Fold", };
+	class Camo
+	{
+		label= "Camo";
+		values[]=
+		{
+			"Arctic",
+			"Arid",
+			"Black",
+			"Gray",
+			"Green",
+			"Olive",
+			"Tan",
+			"Tropic",
+			"Tundra",
+			"Urban",
+			"White",
+			"Woodland",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+	class Fold
+	{
+		label= "Fold";
+		values[]=
+		{
+			"None",
+			"Left",
+			"Right",
+			"Both",
 		};
 		changeingame=1;
 		alwaysSelectable=1;
