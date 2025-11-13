@@ -48,94 +48,75 @@
 	};
 // end Macro_Zephyr_AAX_TCP_CBBAS_M43A
 
-#define Macro_Zephyr_AAX_TCP_CBBAS_M43D(ArgCamo) \
-	class TCP_V_M43D_Light_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderNone"; \
-		ExtraArmor = "ExtraNone"; \
+#define Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo, ArgShoulderArmor, ArgExtraArmor) \
+	model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
+	Camo = #ArgCamo; \
+	ShoulderArmor = #ArgShoulderArmor; \
+	ExtraArmor = #ArgExtraArmor;
+// end Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body
+
+#define Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo(ArgCamo) \
+	class TCP_V_M43D_Light_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderNone,ExtraNone) \
 	}; \
-	class TCP_V_M43D_ODST_1_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderOdst"; \
-		ExtraArmor = "ExtraNone"; \
+	class TCP_V_M43D_ODST_1_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraNone) \
 	}; \
-	class TCP_V_M43D_ODST_2_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderOdst"; \
-		ExtraArmor = "ExtraThighs"; \
+	class TCP_V_M43D_ODST_2_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraThighs) \
 	}; \
-	class TCP_V_M43D_ODST_3_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderOdst"; \
-		ExtraArmor = "ExtraThighsShins"; \
+	class TCP_V_M43D_ODST_3_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraThighsShins) \
 	}; \
-	class TCP_V_M43D_ODST_4_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderOdst"; \
-		ExtraArmor = "ExtraThinShinsGauntlets"; \
+	class TCP_V_M43D_ODST_4_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraThinShinsGauntlets) \
 	}; \
-	class TCP_V_M43D_BREACHER_1_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderBreacher"; \
-		ExtraArmor = "ExtraNone"; \
+	class TCP_V_M43D_BREACHER_1_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraNone) \
 	}; \
-	class TCP_V_M43D_BREACHER_2_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderBreacher"; \
-		ExtraArmor = "ExtraThighs"; \
+	class TCP_V_M43D_BREACHER_2_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraThighs) \
 	}; \
-	class TCP_V_M43D_BREACHER_3_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderBreacher"; \
-		ExtraArmor = "ExtraThighsShins"; \
+	class TCP_V_M43D_BREACHER_3_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraThighsShins) \
 	}; \
-	class TCP_V_M43D_BREACHER_4_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderBreacher"; \
-		ExtraArmor = "ExtraThinShinsGauntlets"; \
+	class TCP_V_M43D_BREACHER_4_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraThinShinsGauntlets) \
 	}; \
-	class TCP_V_M43D_SHARPSHOOTER_1_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderSharpshooter"; \
-		ExtraArmor = "ExtraNone"; \
+	class TCP_V_M43D_SHARPSHOOTER_1_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraNone) \
 	}; \
-	class TCP_V_M43D_SHARPSHOOTER_2_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderSharpshooter"; \
-		ExtraArmor = "ExtraThighs"; \
+	class TCP_V_M43D_SHARPSHOOTER_2_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThighs) \
 	}; \
-	class TCP_V_M43D_SHARPSHOOTER_3_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderSharpshooter"; \
-		ExtraArmor = "ExtraThighsShins"; \
+	class TCP_V_M43D_SHARPSHOOTER_3_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThighsShins) \
 	}; \
-	class TCP_V_M43D_SHARPSHOOTER_4_##ArgCamo## { \
-		model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
-		Camo = #ArgCamo; \
-		ShoulderArmor = "ShoulderSharpshooter"; \
-		ExtraArmor = "ExtraThinShinsGauntlets"; \
+	class TCP_V_M43D_SHARPSHOOTER_4_##ArgCamo## \
+	{ \
+		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThinShinsGauntlets) \
 	};
-// End Macro_Zephyr_AAX_TCP_CBBAS_M43D
+// end Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo
 
 
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(Black)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(Brown)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(Green)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(Olive)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(Tan)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(White)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A(Woodland)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Black)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Brown)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Green)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Olive)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Tan)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(White)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Woodland)
 
-Macro_Zephyr_AAX_TCP_CBBAS_M43D(Black)
+Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo(Black)
