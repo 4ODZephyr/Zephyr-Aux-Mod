@@ -48,6 +48,14 @@
 	};
 // end Macro_Zephyr_AAX_TCP_CBBAS_M43A
 
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Black)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Brown)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Green)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Olive)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Tan)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(White)
+Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Woodland)
+
 #define Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo, ArgShoulderArmor, ArgExtraArmor) \
 	model = "Zephyr_AAX_TCP_CBBAS_M43D"; \
 	Camo = #ArgCamo; \
@@ -109,14 +117,5 @@
 		Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThinShinsGauntlets) \
 	};
 // end Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo
-
-
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Black)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Brown)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Green)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Olive)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Tan)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(White)
-Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Woodland)
 
 Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo(Black)

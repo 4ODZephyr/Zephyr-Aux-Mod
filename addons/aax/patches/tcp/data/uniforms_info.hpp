@@ -181,7 +181,6 @@
 	};
 // end Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo
 
-
 #define Macro_Zephyr_AAX_TCP_CBUU_FieldTop_Body(ArgCamo, ArgSleeves, ArgGloves, ArgPants, ArgCollar) \
 	model = "Zephyr_AAX_TCP_CBUU_FieldTop"; \
 	Camo = #ArgCamo; \
