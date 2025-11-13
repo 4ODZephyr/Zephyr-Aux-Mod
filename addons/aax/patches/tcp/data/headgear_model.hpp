@@ -118,3 +118,25 @@ class Zephyr_AAX_TCP_PatrolCap
 		alwaysSelectable=1;
 	};
 };
+
+class Zephyr_AAX_TCP_CH43A
+{
+	label = "CH43/A Helmet";
+	author = "Lupus590";
+	options[] = {"Camo", };
+	class Camo
+	{
+		label= "Camo";
+		values[]=
+		{
+			"Black",
+			"Brown",
+			"Green",
+			"Olive",
+			"Tan",
+			"White",
+		};
+		changeingame=0;
+		alwaysSelectable=1;
+	};
+};

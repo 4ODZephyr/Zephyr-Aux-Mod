@@ -83,3 +83,19 @@ Macro_Zephyr_AAX_TCP_PatrolCap(Tundra)
 Macro_Zephyr_AAX_TCP_PatrolCap(Urban)
 Macro_Zephyr_AAX_TCP_PatrolCap(White)
 Macro_Zephyr_AAX_TCP_PatrolCap(Woodland)
+
+
+#define Macro_Zephyr_AAX_TCP_CH43A(ArgCamo) \
+	class TCP_H_Helmet_CH43A_##ArgCamo## \
+	{ \
+		model = "Zephyr_AAX_TCP_CH43A"; \
+		Camo = #ArgCamo; \
+	};
+// end Macro_Zephyr_AAX_TCP_CH43A
+
+Macro_Zephyr_AAX_TCP_CH43A(Black)
+Macro_Zephyr_AAX_TCP_CH43A(Brown)
+Macro_Zephyr_AAX_TCP_CH43A(Green)
+Macro_Zephyr_AAX_TCP_CH43A(Olive)
+Macro_Zephyr_AAX_TCP_CH43A(Tan)
+Macro_Zephyr_AAX_TCP_CH43A(White)
