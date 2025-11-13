@@ -21,6 +21,7 @@ class CfgPatches
 			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_watchCap",
 			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_patrolCap",
 			"TCP_Characters_BLUFOR_UNSC_Army_Headgear_helmet_CH43A",
+			"TCP_Characters_BLUFOR_UNSC_Marines_Headgear_helmet_ECH55D",
 		};
 	};
 };

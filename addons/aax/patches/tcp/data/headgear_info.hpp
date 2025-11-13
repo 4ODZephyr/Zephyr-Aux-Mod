@@ -84,7 +84,6 @@ Macro_Zephyr_AAX_TCP_PatrolCap(Urban)
 Macro_Zephyr_AAX_TCP_PatrolCap(White)
 Macro_Zephyr_AAX_TCP_PatrolCap(Woodland)
 
-
 #define Macro_Zephyr_AAX_TCP_CH43A(ArgCamo) \
 	class TCP_H_Helmet_CH43A_##ArgCamo## \
 	{ \
@@ -99,3 +98,22 @@ Macro_Zephyr_AAX_TCP_CH43A(Green)
 Macro_Zephyr_AAX_TCP_CH43A(Olive)
 Macro_Zephyr_AAX_TCP_CH43A(Tan)
 Macro_Zephyr_AAX_TCP_CH43A(White)
+
+#define Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo, ArgColor) \
+	class TCP_H_Helmet_ECH55D_##ArgCamo##_##ArgColor## \
+	{ \
+		model = "Zephyr_AAX_TCP_ECH55D"; \
+		Camo = #ArgCamo; \
+		Color = #ArgColor; \
+	};
+// end Macro_Zephyr_AAX_TCP_ECH55D
+
+#define Macro_Zephyr_AAX_TCP_ECH55D_AllForCamo(ArgCamo) \
+	Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo,Black) \
+	Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo,Blue) \
+	Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo,Gold) \
+	Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo,Red) \
+	Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo,Silver)
+// end Macro_Zephyr_AAX_TCP_ECH55D_AllForCamo
+
+Macro_Zephyr_AAX_TCP_ECH55D_AllForCamo(Black)
