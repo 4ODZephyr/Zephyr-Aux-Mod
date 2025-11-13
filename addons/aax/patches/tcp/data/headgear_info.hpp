@@ -172,28 +172,28 @@ Macro_Zephyr_AAX_TCP_ECH43A_AllForCamo(White)
 	{ \
 		model = "Zephyr_AAX_TCP_Cap"; \
 		Camo = #ArgCamo; \
-		Orientation = "Forwards"; \
+		Orientation = "OrientationForwards"; \
 		Tactical = "No"; \
 	};\
 	class TCP_H_Cap_Reversed_##ArgCamo## \
 	{ \
 		model = "Zephyr_AAX_TCP_Cap"; \
 		Camo = #ArgCamo; \
-		Orientation = "Reversed"; \
+		Orientation = "OrientationBackwards"; \
 		Tactical = "No"; \
 	};\
 	class TCP_H_TacticalCap_##ArgCamo## \
 	{ \
 		model = "Zephyr_AAX_TCP_Cap"; \
 		Camo = #ArgCamo; \
-		Orientation = "Forwards"; \
+		Orientation = "OrientationForwards"; \
 		Tactical = "Yes"; \
 	};\
 	class TCP_H_TacticalCap_Reversed_##ArgCamo## \
 	{ \
 		model = "Zephyr_AAX_TCP_Cap"; \
 		Camo = #ArgCamo; \
-		Orientation = "Reversed"; \
+		Orientation = "OrientationBackwards"; \
 		Tactical = "Yes"; \
 	};
 // end Macro_Zephyr_AAX_TCP_Cap
@@ -210,25 +210,25 @@ Macro_Zephyr_AAX_TCP_Cap(White)
 	{ \
 		model = "Zephyr_AAX_TCP_BoonieHat"; \
 		Camo = #ArgCamo; \
-		Fold = "None"; \
+		Fold = "FoldNone"; \
 	};\
 	class TCP_H_boonieHat_Folded_##ArgCamo## \
 	{ \
 		model = "Zephyr_AAX_TCP_BoonieHat"; \
 		Camo = #ArgCamo; \
-		Fold = "Both"; \
+		Fold = "FoldBoth"; \
 	};\
 	class TCP_H_boonieHat_Folded_Left_##ArgCamo## \
 	{ \
 		model = "Zephyr_AAX_TCP_BoonieHat"; \
 		Camo = #ArgCamo; \
-		Fold = "Left"; \
+		Fold = "FoldLeft"; \
 	};\
 	class TCP_H_boonieHat_Folded_Right_##ArgCamo## \
 	{ \
 		model = "Zephyr_AAX_TCP_BoonieHat"; \
 		Camo = #ArgCamo; \
-		Fold = "Right"; \
+		Fold = "FoldRight"; \
 	};
 // end Macro_Zephyr_AAX_TCP_BoonieHat
 

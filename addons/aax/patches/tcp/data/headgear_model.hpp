@@ -270,11 +270,31 @@ class Zephyr_AAX_TCP_Cap
 		label= "Orientation";
 		values[]=
 		{
-			"Forwards",
-			"Reversed",
+			"OrientationForwards",
+			"OrientationBackwards",
 		};
 		changeingame=1;
 		alwaysSelectable=1;
+		class OrientationForwards
+		{
+			label = "Forwards";
+			//description = "Value 1 for option A"; // displayed as tooltip
+			// image = "xxx"; // Background image in Arsenal
+			// icon = "xxx"; // If can changeingame, action icon in ACE menu
+			actionlabel = "Face hat forwards"; // If can changeingame, action label in ACE menu
+			// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
+			// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+		};
+		class OrientationBackwards
+		{
+			label = "Backwards";
+			//description = "Value 1 for option A"; // displayed as tooltip
+			// image = "xxx"; // Background image in Arsenal
+			// icon = "xxx"; // If can changeingame, action icon in ACE menu
+			actionlabel = "Face hat backwards"; // If can changeingame, action label in ACE menu
+			// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
+			// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+		};
 	};
 	class Tactical
 	{
@@ -284,7 +304,7 @@ class Zephyr_AAX_TCP_Cap
 			"Yes",
 			"No",
 		};
-		changeingame=1;
+		changeingame=0;
 		alwaysSelectable=1;
 	};
 };
@@ -317,15 +337,55 @@ class Zephyr_AAX_TCP_BoonieHat
 	};
 	class Fold
 	{
-		label= "Fold";
+		label= "Brim Fold";
 		values[]=
 		{
-			"None",
-			"Left",
-			"Right",
-			"Both",
+			"FoldNone",
+			"FoldLeft",
+			"FoldRight",
+			"FoldBoth",
 		};
 		changeingame=1;
 		alwaysSelectable=1;
+		class FoldNone
+		{
+			label = "Unfolded";
+			//description = "Value 1 for option A"; // displayed as tooltip
+			// image = "xxx"; // Background image in Arsenal
+			// icon = "xxx"; // If can changeingame, action icon in ACE menu
+			actionlabel = "Unfold hat"; // If can changeingame, action label in ACE menu
+			// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
+			// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+		};
+		class FoldLeft
+		{
+			label = "Left Folded";
+			//description = "Value 1 for option A"; // displayed as tooltip
+			// image = "xxx"; // Background image in Arsenal
+			// icon = "xxx"; // If can changeingame, action icon in ACE menu
+			actionlabel = "Fold hat's left brim"; // If can changeingame, action label in ACE menu
+			// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
+			// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+		};
+		class FoldRight
+		{
+			label = "Right Folded";
+			//description = "Value 1 for option A"; // displayed as tooltip
+			// image = "xxx"; // Background image in Arsenal
+			// icon = "xxx"; // If can changeingame, action icon in ACE menu
+			actionlabel = "Fold hat's right brim"; // If can changeingame, action label in ACE menu
+			// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
+			// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+		};
+		class FoldBoth
+		{
+			label = "Both Folded";
+			//description = "Value 1 for option A"; // displayed as tooltip
+			// image = "xxx"; // Background image in Arsenal
+			// icon = "xxx"; // If can changeingame, action icon in ACE menu
+			actionlabel = "Fold both brims of hat"; // If can changeingame, action label in ACE menu
+			// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
+			// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+		};
 	};
 };
