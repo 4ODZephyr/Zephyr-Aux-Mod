@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - Custom Zephyr unit patch (insignia) that can be applied to uniforms
+- AAX support for TCP equipment
 
 ## 1.1.0
 ### Changes
