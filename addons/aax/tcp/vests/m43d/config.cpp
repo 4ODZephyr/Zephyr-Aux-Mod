@@ -34,47 +34,27 @@ class XtdGearModels
 			class ShoulderArmor
 			{
 				label = "Shoulder Armor";
-				values[] = {"ShoulderNone", "ShoulderBreacher", "ShoulderOdst", "ShoulderSharpshooter"};
+				values[] = {"None", "Breacher", "Odst", "Sharpshooter"};
 				changeingame = 0;
 				alwaysSelectable = 1;
-				class ShoulderNone
-				{
-					label = "None";
-				};
-				class ShoulderBreacher
-				{
-					label = "Breacher";
-				};
-				class ShoulderOdst
+				class Odst
 				{
 					label = "ODST";
-				};
-				class ShoulderSharpshooter
-				{
-					label = "Sharpshooter";
 				};
 			};
 			class ExtraArmor
 			{
 				label = "Extra Armor";
-				values[] = {"ExtraNone", "ExtraThighs", "ExtraThighsShins", "ExtraThinShinsGauntlets"};
+				values[] = {"None", "Thighs", "ThighsShins", "ThighsShinsGauntlets"};
 				changeingame = 0;
 				alwaysSelectable = 1;
-				class ExtraNone
-				{
-					label = "None";
-				};
-				class ExtraThighs
-				{
-					label = "Thighs";
-				};
-				class ExtraThighsShins
+				class ThighsShins
 				{
 					label = "Thighs & Shins";
 				};
-				class ExtraThinShinsGauntlets
+				class ThighsShinsGauntlets
 				{
-					label = "Thin, Shins & Gauntlets";
+					label = "Thighs, Shins & Gauntlets";
 				};
 			};
 		};
@@ -94,55 +74,55 @@ class XtdGearInfos
 		#define Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo(ArgCamo) \
 			class TCP_V_M43D_Light_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderNone,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,None,None) \
 			}; \
 			class TCP_V_M43D_ODST_1_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Odst,None) \
 			}; \
 			class TCP_V_M43D_ODST_2_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraThighs) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Odst,Thighs) \
 			}; \
 			class TCP_V_M43D_ODST_3_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraThighsShins) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Odst,ThighsShins) \
 			}; \
 			class TCP_V_M43D_ODST_4_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderOdst,ExtraThinShinsGauntlets) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Odst,ThighsShinsGauntlets) \
 			}; \
 			class TCP_V_M43D_BREACHER_1_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Breacher,None) \
 			}; \
 			class TCP_V_M43D_BREACHER_2_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraThighs) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Breacher,Thighs) \
 			}; \
 			class TCP_V_M43D_BREACHER_3_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraThighsShins) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Breacher,ThighsShins) \
 			}; \
 			class TCP_V_M43D_BREACHER_4_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderBreacher,ExtraThinShinsGauntlets) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Breacher,ThighsShinsGauntlets) \
 			}; \
 			class TCP_V_M43D_SHARPSHOOTER_1_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Sharpshooter,None) \
 			}; \
 			class TCP_V_M43D_SHARPSHOOTER_2_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThighs) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Sharpshooter,Thighs) \
 			}; \
 			class TCP_V_M43D_SHARPSHOOTER_3_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThighsShins) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Sharpshooter,ThighsShins) \
 			}; \
 			class TCP_V_M43D_SHARPSHOOTER_4_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,ShoulderSharpshooter,ExtraThinShinsGauntlets) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43D_Body(ArgCamo,Sharpshooter,ThighsShinsGauntlets) \
 			};
 		// end Macro_Zephyr_AAX_TCP_CBBAS_M43D_AllForCamo
 

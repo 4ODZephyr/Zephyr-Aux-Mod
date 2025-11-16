@@ -44,19 +44,17 @@ class XtdGearModels
 				label = "Orientation";
 				values[] =
 				{
-					"OrientationForwards",
-					"OrientationBackwards",
+					"Forwards",
+					"Backwards",
 				};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class OrientationForwards
+				class Forwards
 				{
-					label = "Forwards";
 				   actionlabel = "Face hat forwards";
 				};
-				class OrientationBackwards
+				class Backwards
 				{
-					label = "Backwards";
 				   actionlabel = "Face hat backwards";
 				};
 			};
@@ -83,28 +81,28 @@ class XtdGearInfos
 			{ \
 				model = "Zephyr_AAX_TCP_Cap"; \
 				Camo = #ArgCamo; \
-				Orientation = "OrientationForwards"; \
+				Orientation = "Forwards"; \
 				Tactical = "No"; \
 			};\
 			class TCP_H_Cap_Reversed_##ArgCamo## \
 			{ \
 				model = "Zephyr_AAX_TCP_Cap"; \
 				Camo = #ArgCamo; \
-				Orientation = "OrientationBackwards"; \
+				Orientation = "Backwards"; \
 				Tactical = "No"; \
 			};\
 			class TCP_H_TacticalCap_##ArgCamo## \
 			{ \
 				model = "Zephyr_AAX_TCP_Cap"; \
 				Camo = #ArgCamo; \
-				Orientation = "OrientationForwards"; \
+				Orientation = "Forwards"; \
 				Tactical = "Yes"; \
 			};\
 			class TCP_H_TacticalCap_Reversed_##ArgCamo## \
 			{ \
 				model = "Zephyr_AAX_TCP_Cap"; \
 				Camo = #ArgCamo; \
-				Orientation = "OrientationBackwards"; \
+				Orientation = "Backwards"; \
 				Tactical = "Yes"; \
 			};
 		// end Macro_Zephyr_AAX_TCP_Cap

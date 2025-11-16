@@ -48,51 +48,45 @@ class XtdGearModels
 			class Shirt
 			{
 				label = "Shirt";
-				values[] = {"ShirtTucked", "ShirtUntucked",};
+				values[] = {"Tucked", "Untucked",};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class ShirtTucked
+				class Tucked
 				{
-					label = "Tucked";
 					actionlabel = "Tuck in shirt";
 				};
-				class ShirtUntucked
+				class Untucked
 				{
-					label = "Untucked";
 					actionlabel = "Untuck shirt";
 				};
 			};
 			class Gloves
 			{
 				label = "Gloves";
-				values[] = {"GlovesOn", "GlovesOff"};
+				values[] = {"On", "Off"};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class GlovesOn
+				class On
 				{
-					label = "On";
 					actionlabel = "Put on gloves";
 				};
-				class GlovesOff
+				class Off
 				{
-					label = "Off";
 					actionlabel = "Remove gloves";
 				};
 			};
 			class Pants
 			{
 				label = "Pants";
-				values[] = {"PantsBloused", "PantsUnbloused"};
+				values[] = {"Bloused", "Unbloused"};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class PantsBloused
+				class Bloused
 				{
-					label = "Bloused";
 					actionlabel = "Tuck pants into boots";
 				};
-				class PantsUnbloused
+				class Unbloused
 				{
-					label = "Unbloused";
 					actionlabel = "Untuck pants from boots";
 				};
 			};
@@ -114,35 +108,35 @@ class XtdGearInfos
 		#define Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo(ArgCamo)\
 			class TCP_U_B_CBUU_TShirt_Tucked_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtTucked,GlovesOff,PantsUnbloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Tucked,Off,Unbloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Tucked_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtTucked,GlovesOff,PantsBloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Tucked,Off,Bloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Tucked_Gloves_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtTucked,GlovesOn,PantsUnbloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Tucked,On,Unbloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Tucked_Gloves_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtTucked,GlovesOn,PantsBloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Tucked,On,Bloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Untucked_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtUntucked,GlovesOff,PantsUnbloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Untucked,Off,Unbloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Untucked_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtUntucked,GlovesOff,PantsBloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Untucked,Off,Bloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Untucked_Gloves_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtUntucked,GlovesOn,PantsUnbloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Untucked,On,Unbloused)\
 			};\
 			class TCP_U_B_CBUU_TShirt_Untucked_Gloves_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,ShirtUntucked,GlovesOn,PantsBloused)\
+				Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body(ArgCamo,Untucked,On,Bloused)\
 			};
 		// end Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo
 

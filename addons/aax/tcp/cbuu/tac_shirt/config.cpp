@@ -48,78 +48,70 @@ class XtdGearModels
 			class Sleeves
 			{
 				label = "Sleeves";
-				values[] = {"SleevesUnrolled", "SleevesHalfRoll", "SleevesQuarterRoll", "SleevesSlim"};
+				values[] = {"Unrolled", "HalfRoll", "QuarterRoll", "Slim"};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class SleevesUnrolled
+				class Unrolled
 				{
-					label = "Unrolled";
 					actionlabel = "Unroll sleeves";
 				};
-				class SleevesHalfRoll
+				class HalfRoll
 				{
 					label = "Half Roll";
 					actionlabel = "Roll up sleeves halfway";
 				};
-				class SleevesQuarterRoll
+				class QuarterRoll
 				{
 					label = "Quarter Roll";
 					actionlabel = "Roll up sleeves to quarter way";
 				};
-				class SleevesSlim
+				class Slim
 				{
-					label = "Slim";
 					actionlabel = "Magically get slimmer sleeves, I don't know";
 				};
 			};
 			class Gloves
 			{
 				label = "Gloves";
-				values[] = {"GlovesOn", "GlovesOff"};
+				values[] = {"On", "Off"};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class GlovesOn
+				class On
 				{
-					label = "On";
 					actionlabel = "Put on gloves";
 				};
-				class GlovesOff
+				class Off
 				{
-					label = "Off";
 					actionlabel = "Remove gloves";
 				};
 			};
 			class Pants
 			{
 				label = "Pants";
-				values[] = {"PantsBloused", "PantsUnbloused"};
+				values[] = {"Bloused", "Unbloused"};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class PantsBloused
+				class Bloused
 				{
-					label = "Bloused";
 					actionlabel = "Tuck pants into boots";
 				};
-				class PantsUnbloused
+				class Unbloused
 				{
-					label = "Unbloused";
 					actionlabel = "Untuck pants from boots";
 				};
 			};
 			class Collar
 			{
 				label = "Collar";
-				values[] = {"CollarZipped", "CollarUnzipped"};
+				values[] = {"Zipped", "Unzipped"};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class CollarZipped
+				class Zipped
 				{
-					label = "Zipped Up";
 					actionlabel = "Zip up collar";
 				};
-				class CollarUnzipped
+				class Unzipped
 				{
-					label = "Unzipped";
 					actionlabel = "Unzip Collar";
 				};
 			};
@@ -142,131 +134,131 @@ class XtdGearInfos
 		#define Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo(ArgCamo)\
 			class TCP_U_B_CBUU_TacShirt_Full_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOff,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,Off,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOff,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,Off,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Gloves_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOn,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,On,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Gloves_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOn,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,On,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOff,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,Off,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOff,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,Off,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Gloves_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOn,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,On,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_Full_Gloves_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesUnrolled,GlovesOn,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Unrolled,On,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOff,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,Off,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOff,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,Off,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Gloves_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOn,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,On,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Gloves_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOn,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,On,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOff,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,Off,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOff,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,Off,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Gloves_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOn,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,On,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_QuarterRoll_Gloves_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesQuarterRoll,GlovesOn,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,QuarterRoll,On,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOff,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,Off,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOff,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,Off,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Gloves_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOn,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,On,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Gloves_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOn,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,On,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOff,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,Off,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOff,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,Off,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Gloves_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOn,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,On,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_HalfRoll_Gloves_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesHalfRoll,GlovesOn,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,HalfRoll,On,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOff,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,Off,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOff,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,Off,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Gloves_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOn,PantsUnbloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,On,Unbloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Gloves_Bloused_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOn,PantsBloused,CollarZipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,On,Bloused,Zipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOff,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,Off,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOff,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,Off,Bloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Gloves_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOn,PantsUnbloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,On,Unbloused,Unzipped)\
 			};\
 			class TCP_U_B_CBUU_TacShirt_SlimSleeve_Gloves_Bloused_Unzipped_##ArgCamo##\
 			{\
-				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,SleevesSlim,GlovesOn,PantsBloused,CollarUnzipped)\
+				Macro_Zephyr_AAX_TCP_CBUU_TacShirt_Body(ArgCamo,Slim,On,Bloused,Unzipped)\
 			};
 		// end Macro_Zephyr_AAX_TCP_CBUU_TacShirt_AllForCamo
 

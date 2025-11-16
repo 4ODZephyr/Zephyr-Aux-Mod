@@ -43,22 +43,18 @@ class XtdGearModels
 			class ShoulderArmor
 			{
 				label = "Shoulder Armor";
-				values[] = {"ShoulderNone", "ShoulderBaseSecurity", "ShoulderGungnirLarge", "ShoulderGungnirSmall", };
+				values[] = {"None", "BaseSecurity", "GungnirLarge", "GungnirSmall", };
 				changeingame = 0;
 				alwaysSelectable = 1;
-				class ShoulderNone
-				{
-					label = "None";
-				};
-				class ShoulderBaseSecurity
+				class BaseSecurity
 				{
 					label = "Base Security";
 				};
-				class ShoulderGungnirLarge
+				class GungnirLarge
 				{
 					label = "Gungnir Large";
 				};
-				class ShoulderGungnirSmall
+				class GungnirSmall
 				{
 					label = "Gungnir Small";
 				};
@@ -66,18 +62,10 @@ class XtdGearModels
 			class ExtraArmor
 			{
 				label = "Extra Armor";
-				values[] = {"ExtraNone", "ExtraThighs", "ExtraThighsShins", };
+				values[] = {"None", "Thighs", "ThighsShins", };
 				changeingame = 0;
 				alwaysSelectable = 1;
-				class ExtraNone
-				{
-					label = "None";
-				};
-				class ExtraThighs
-				{
-					label = "Thighs";
-				};
-				class ExtraThighsShins
+				class ThighsShins
 				{
 					label = "Thighs & Shins";
 				};
@@ -99,43 +87,43 @@ class XtdGearInfos
 		#define Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(ArgCamo) \
 			class TCP_V_M43A_Light_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderNone,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,None,None) \
 			}; \
 			class TCP_V_M43A_BaseSec_1_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderBaseSecurity,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,BaseSecurity,None) \
 			}; \
 			class TCP_V_M43A_BaseSec_2_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderBaseSecurity,ExtraThighs) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,BaseSecurity,Thighs) \
 			}; \
 			class TCP_V_M43A_BaseSec_3_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderBaseSecurity,ExtraThighsShins) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,BaseSecurity,ThighsShins) \
 			}; \
 			class TCP_V_M43A_GungnirS_1_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderGungnirSmall,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirSmall,None) \
 			}; \
 			class TCP_V_M43A_GungnirS_2_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderGungnirSmall,ExtraThighs) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirSmall,Thighs) \
 			}; \
 			class TCP_V_M43A_GungnirS_3_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderGungnirSmall,ExtraThighsShins) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirSmall,ThighsShins) \
 			}; \
 			class TCP_V_M43A_GungnirL_1_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderGungnirLarge,ExtraNone) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirLarge,None) \
 			}; \
 			class TCP_V_M43A_GungnirL_2_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderGungnirLarge,ExtraThighs) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirLarge,Thighs) \
 			}; \
 			class TCP_V_M43A_GungnirL_3_##ArgCamo## \
 			{ \
-				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,ShoulderGungnirLarge,ExtraThighsShins) \
+				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirLarge,ThighsShins) \
 			};
 		// end Macro_Zephyr_AAX_TCP_CBBAS_M43A
 

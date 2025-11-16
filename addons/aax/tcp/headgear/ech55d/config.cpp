@@ -23,7 +23,7 @@ class XtdGearModels
 		{
 			label = "ECH55/D Helmet";
 			author = "Lupus590";
-			options[] = {"Camo", "Color", };
+			options[] = {"Camo", "VisorColor", };
 			class Camo
 			{
 				label = "Camo";
@@ -34,7 +34,7 @@ class XtdGearModels
 				changeingame = 0;
 				alwaysSelectable = 1;
 			};
-			class Color
+			class VisorColor
 			{
 				label = "Visor Color";
 				values[] =
@@ -55,12 +55,12 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-		#define Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo, ArgColor) \
-			class TCP_H_Helmet_ECH55D_##ArgCamo##_##ArgColor## \
+		#define Macro_Zephyr_AAX_TCP_ECH55D(ArgCamo, ArgVisorColor) \
+			class TCP_H_Helmet_ECH55D_##ArgCamo##_##ArgVisorColor## \
 			{ \
 				model = "Zephyr_AAX_TCP_ECH55D"; \
 				Camo = #ArgCamo; \
-				Color = #ArgColor; \
+				VisorColor = #ArgVisorColor; \
 			};
 		// end Macro_Zephyr_AAX_TCP_ECH55D
 

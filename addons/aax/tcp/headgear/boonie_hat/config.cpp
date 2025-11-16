@@ -50,29 +50,29 @@ class XtdGearModels
 				label = "Brim Fold";
 				values[] =
 				{
-					"FoldNone",
-					"FoldLeft",
-					"FoldRight",
-					"FoldBoth",
+					"None",
+					"Left",
+					"Right",
+					"Both",
 				};
 				changeingame = 1;
 				alwaysSelectable = 1;
-				class FoldNone
+				class None
 				{
 					label = "Unfolded";
 					actionlabel = "Unfold hat";
 				};
-				class FoldLeft
+				class Left
 				{
 					label = "Left Folded";
 					actionlabel = "Fold hat's left brim";
 				};
-				class FoldRight
+				class Right
 				{
 					label = "Right Folded";
 					actionlabel = "Fold hat's right brim";
 				};
-				class FoldBoth
+				class Both
 				{
 					label = "Both Folded";
 					actionlabel = "Fold both brims of hat";
@@ -90,25 +90,25 @@ class XtdGearInfos
 			{ \
 				model = "Zephyr_AAX_TCP_BoonieHat"; \
 				Camo = #ArgCamo; \
-				Fold = "FoldNone"; \
+				Fold = "None"; \
 			};\
 			class TCP_H_boonieHat_Folded_##ArgCamo## \
 			{ \
 				model = "Zephyr_AAX_TCP_BoonieHat"; \
 				Camo = #ArgCamo; \
-				Fold = "FoldBoth"; \
+				Fold = "Both"; \
 			};\
 			class TCP_H_boonieHat_Folded_Left_##ArgCamo## \
 			{ \
 				model = "Zephyr_AAX_TCP_BoonieHat"; \
 				Camo = #ArgCamo; \
-				Fold = "FoldLeft"; \
+				Fold = "Left"; \
 			};\
 			class TCP_H_boonieHat_Folded_Right_##ArgCamo## \
 			{ \
 				model = "Zephyr_AAX_TCP_BoonieHat"; \
 				Camo = #ArgCamo; \
-				Fold = "FoldRight"; \
+				Fold = "Right"; \
 			};
 		// end Macro_Zephyr_AAX_TCP_BoonieHat
 
