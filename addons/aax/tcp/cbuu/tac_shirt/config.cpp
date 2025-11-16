@@ -103,7 +103,7 @@ class XtdGearModels
 			class Collar
 			{
 				label = "Collar";
-				values[] = {"Zipped", "Unzipped"	};
+				values[] = {"Zipped", "Unzipped", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class Zipped

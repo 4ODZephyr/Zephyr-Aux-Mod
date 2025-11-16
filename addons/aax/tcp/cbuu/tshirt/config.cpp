@@ -103,7 +103,7 @@ class XtdGearInfos
 			Shirt = #ArgShirt; \
 			Gloves = #ArgGloves; \
 			Pants = #ArgPants;
-		// end Macro_Zephyr_AAX_TCP_CBUU_TShirt
+		// end Macro_Zephyr_AAX_TCP_CBUU_TShirt_Body
 
 		#define Macro_Zephyr_AAX_TCP_CBUU_TShirt_AllForCamo(ArgCamo)\
 			class TCP_U_B_CBUU_TShirt_Tucked_##ArgCamo##\

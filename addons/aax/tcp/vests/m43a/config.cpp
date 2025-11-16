@@ -125,7 +125,7 @@ class XtdGearInfos
 			{ \
 				Macro_Zephyr_AAX_TCP_CBBAS_M43A_Body(ArgCamo,GungnirLarge,ThighsShins) \
 			};
-		// end Macro_Zephyr_AAX_TCP_CBBAS_M43A
+		// end Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo
 
 		Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Black)
 		Macro_Zephyr_AAX_TCP_CBBAS_M43A_AllForCamo(Brown)
