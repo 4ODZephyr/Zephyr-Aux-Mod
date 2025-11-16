@@ -48,7 +48,7 @@ class XtdGearModels
 			class Shirt
 			{
 				label = "Shirt";
-				values[] = {"Tucked", "Untucked",};
+				values[] = {"Tucked", "Untucked", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class Tucked
@@ -63,7 +63,7 @@ class XtdGearModels
 			class Gloves
 			{
 				label = "Gloves";
-				values[] = {"On", "Off"};
+				values[] = {"On", "Off", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class On
@@ -78,7 +78,7 @@ class XtdGearModels
 			class Pants
 			{
 				label = "Pants";
-				values[] = {"Bloused", "Unbloused"};
+				values[] = {"Bloused", "Unbloused", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class Bloused

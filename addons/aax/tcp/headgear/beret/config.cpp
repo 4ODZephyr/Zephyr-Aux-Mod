@@ -58,6 +58,5 @@ class XtdGearInfos
 		Macro_Zephyr_AAX_TCP_Beret(Green)
 		Macro_Zephyr_AAX_TCP_Beret(Red)
 		Macro_Zephyr_AAX_TCP_Beret(Tan)
-
 	};
 };

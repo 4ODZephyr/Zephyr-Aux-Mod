@@ -48,7 +48,7 @@ class XtdGearModels
 			class Sleeves
 			{
 				label = "Sleeves";
-				values[] = {"Unrolled", "HalfRoll", "QuarterRoll", "Slim"};
+				values[] = {"Unrolled", "HalfRoll", "QuarterRoll", "Slim", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class Unrolled
@@ -73,7 +73,7 @@ class XtdGearModels
 			class Gloves
 			{
 				label = "Gloves";
-				values[] = {"On", "Off"};
+				values[] = {"On", "Off", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class On
@@ -88,7 +88,7 @@ class XtdGearModels
 			class Pants
 			{
 				label = "Pants";
-				values[] = {"Bloused", "Unbloused"};
+				values[] = {"Bloused", "Unbloused", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class Bloused
@@ -103,7 +103,7 @@ class XtdGearModels
 			class Collar
 			{
 				label = "Collar";
-				values[] = {"Zipped", "Unzipped"};
+				values[] = {"Zipped", "Unzipped", };
 				changeingame = 1;
 				alwaysSelectable = 1;
 				class Zipped

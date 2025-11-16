@@ -23,18 +23,18 @@ class XtdGearModels
 		{
 			label = "M43/D CBBAS (Black)";
 			author = "Lupus590";
-			options[] = {"Camo", "ShoulderArmor", "ExtraArmor"};
+			options[] = {"Camo", "ShoulderArmor", "ExtraArmor", };
 			class Camo
 			{
 				label = "Camo";
-				values[] = {"Black"};
+				values[] = {"Black", };
 				changeingame = 0;
 				alwaysSelectable = 1;
 			};
 			class ShoulderArmor
 			{
 				label = "Shoulder Armor";
-				values[] = {"None", "Breacher", "Odst", "Sharpshooter"};
+				values[] = {"None", "Breacher", "Odst", "Sharpshooter", };
 				changeingame = 0;
 				alwaysSelectable = 1;
 				class Odst
@@ -45,7 +45,7 @@ class XtdGearModels
 			class ExtraArmor
 			{
 				label = "Extra Armor";
-				values[] = {"None", "Thighs", "ThighsShins", "ThighsShinsGauntlets"};
+				values[] = {"None", "Thighs", "ThighsShins", "ThighsShinsGauntlets", };
 				changeingame = 0;
 				alwaysSelectable = 1;
 				class ThighsShins
