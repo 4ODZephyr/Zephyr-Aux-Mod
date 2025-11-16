@@ -119,7 +119,7 @@ class XtdGearModels
 				};
 				class ExtraThighsShins
 				{
-					label = "Thighs And Shins";
+					label = "Thighs & Shins";
 					//description = "Value 1 for option A"; // displayed as tooltip
 					// image = "xxx"; // Background image in Arsenal
 					// icon = "xxx"; // If can changeingame, action icon in ACE menu
