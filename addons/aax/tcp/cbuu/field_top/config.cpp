@@ -97,15 +97,15 @@ class XtdGearModels
 				};
 				class Unbloused
 				{
-				    actionlabel = "Untuck pants from boots";
+					actionlabel = "Untuck pants from boots";
 				};
 			};
 			class Collar
 			{
 				label = "Collar";
 				values[] = {"Zipped", "Unzipped"};
-			    changeingame = 1;
-			    alwaysSelectable = 1;
+				changeingame = 1;
+				alwaysSelectable = 1;
 				class Zipped
 				{
 					actionlabel = "Zip up collar";

@@ -51,11 +51,11 @@ class XtdGearModels
 				alwaysSelectable = 1;
 				class Forwards
 				{
-				   actionlabel = "Face hat forwards";
+					actionlabel = "Face hat forwards";
 				};
 				class Backwards
 				{
-				   actionlabel = "Face hat backwards";
+					actionlabel = "Face hat backwards";
 				};
 			};
 			class Tactical
