@@ -40,42 +40,18 @@ class XtdGearModels
 				class ShoulderNone
 				{
 					label = "None";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 				class ShoulderBreacher
 				{
 					label = "Breacher";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 				class ShoulderOdst
 				{
 					label = "ODST";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 				class ShoulderSharpshooter
 				{
 					label = "Sharpshooter";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 			};
 			class ExtraArmor
@@ -87,42 +63,18 @@ class XtdGearModels
 				class ExtraNone
 				{
 					label = "None";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 				class ExtraThighs
 				{
 					label = "Thighs";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 				class ExtraThighsShins
 				{
 					label = "Thighs & Shins";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 				class ExtraThinShinsGauntlets
 				{
 					label = "Thin, Shins & Gauntlets";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					// actionlabel = "xxx; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
 				};
 			};
 		};

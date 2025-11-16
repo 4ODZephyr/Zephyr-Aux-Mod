@@ -60,42 +60,22 @@ class XtdGearModels
 				class FoldNone
 				{
 					label = "Unfolded";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Unfold hat"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Unfold hat";
 				};
 				class FoldLeft
 				{
 					label = "Left Folded";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Fold hat's left brim"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Fold hat's left brim";
 				};
 				class FoldRight
 				{
 					label = "Right Folded";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Fold hat's right brim"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Fold hat's right brim";
 				};
 				class FoldBoth
 				{
 					label = "Both Folded";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Fold both brims of hat"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Fold both brims of hat";
 				};
 			};
 		};

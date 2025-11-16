@@ -49,136 +49,78 @@ class XtdGearModels
 			{
 				label = "Sleeves";
 				values[] = {"SleevesUnrolled", "SleevesHalfRoll", "SleevesQuarterRoll", "SleevesSlim"};
-				changeingame = 1; // 1 if value can be changed in game via ACE menu
-				alwaysSelectable = 1; // allows the selection of the values even if there isn't an item with a complete match of options available, falling back to a weak match with this single value (optional)
-				// changedelay = 2; // If can changeingame, wait delay before change is effective (can be 0, 0.1, or more)
-				// icon = "xxx"; // If can changeingame, action group icon in ACE menu
+				changeingame = 1;
+				alwaysSelectable = 1;
 				class SleevesUnrolled
 				{
 					label = "Unrolled";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Unroll sleeves"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Unroll sleeves";
 				};
 				class SleevesHalfRoll
 				{
 					label = "Half Roll";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Roll up sleeves halfway"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Roll up sleeves halfway";
 				};
 				class SleevesQuarterRoll
 				{
 					label = "Quarter Roll";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Roll up sleeves to quarter way"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Roll up sleeves to quarter way";
 				};
 				class SleevesSlim
 				{
 					label = "Slim";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Magically get slimmer sleeves, I don't know"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Magically get slimmer sleeves, I don't know";
 				};
 			};
 			class Gloves
 			{
 				label = "Gloves";
 				values[] = {"GlovesOn", "GlovesOff"};
-				changeingame = 1; // 1 if value can be changed in game via ACE menu
-				alwaysSelectable = 1; // allows the selection of the values even if there isn't an item with a complete match of options available, falling back to a weak match with this single value (optional)
-				// changedelay = 2; // If can changeingame, wait delay before change is effective (can be 0, 0.1, or more)
-				// icon = "xxx"; // If can changeingame, action group icon in ACE menu
+				changeingame = 1;
+				alwaysSelectable = 1;
 				class GlovesOn
 				{
 					label = "On";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Put on gloves"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Put on gloves";
 				};
 				class GlovesOff
 				{
 					label = "Off";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Remove gloves"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Remove gloves";
 				};
 			};
 			class Pants
 			{
 				label = "Pants";
 				values[] = {"PantsBloused", "PantsUnbloused"};
-				changeingame = 1; // 1 if value can be changed in game via ACE menu
-				alwaysSelectable = 1; // allows the selection of the values even if there isn't an item with a complete match of options available, falling back to a weak match with this single value (optional)
-				// changedelay = 2; // If can changeingame, wait delay before change is effective (can be 0, 0.1, or more)
-				// icon = "xxx"; // If can changeingame, action group icon in ACE menu
+				changeingame = 1;
+				alwaysSelectable = 1;
 				class PantsBloused
 				{
 					label = "Bloused";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Tuck pants into boots"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Tuck pants into boots";
 				};
 				class PantsUnbloused
 				{
 					label = "Unbloused";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Untuck pants from boots"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Untuck pants from boots";
 				};
 			};
 			class Collar
 			{
 				label = "Collar";
 				values[] = {"CollarZipped", "CollarUnzipped"};
-				changeingame = 1; // 1 if value can be changed in game via ACE menu
-				alwaysSelectable = 1; // allows the selection of the values even if there isn't an item with a complete match of options available, falling back to a weak match with this single value (optional)
-				// changedelay = 2; // If can changeingame, wait delay before change is effective (can be 0, 0.1, or more)
-				// icon = "xxx"; // If can changeingame, action group icon in ACE menu
+				changeingame = 1;
+				alwaysSelectable = 1;
 				class CollarZipped
 				{
 					label = "Zipped Up";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Zip up collar"; // If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Zip up collar";
 				};
 				class CollarUnzipped
 				{
 					label = "Unzipped";
-					//description = "Value 1 for option A"; // displayed as tooltip
-					// image = "xxx"; // Background image in Arsenal
-					// icon = "xxx"; // If can changeingame, action icon in ACE menu
-					actionlabel = "Unzip Collar"; // //If can changeingame, action label in ACE menu
-					// itemingame = "xxx"; // If can changeingame, requires this item to be present in inventory. Item will be removed from inventory (added back if an other value is choosen)
-					// changedelay = (inherited by default); // If can changeingame, wait delay before change is effective
+					actionlabel = "Unzip Collar";
 				};
 			};
 		};
