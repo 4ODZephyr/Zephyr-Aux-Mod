@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Zephyr_AAX_TCP_Vest_M43A
+	class Zephyr_AAX_TCP_Vests_M43A
 	{
 		addonRootClass = "Zephyr_AAX";
 		name = "Zephyr - AAX - TCP - Vests - M43A";
