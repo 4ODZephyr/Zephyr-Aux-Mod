@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Logo not being reference correctly in mod.cpp
 
 ## Changed
-- Removed logo background for more pleasent apperence on the main menu
+- Removed logo background for more pleasant appearance on the main menu
 
 ## 1.2.0
 ### Added
