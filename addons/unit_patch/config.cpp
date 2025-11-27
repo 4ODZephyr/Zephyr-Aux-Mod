@@ -24,3 +24,25 @@ class CfgUnitInsignia
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
+
+class CfgMarkerClasses
+{
+	class Zephyr_MapMarkers
+	{
+		displayName = "Zephyr Markers";
+	};
+};
+
+class CfgMarkers
+{
+	class Zephyr_Marker
+	{
+		name="[4ODZ] Zephyr";
+		icon = "\z\zephyr\addons\unit_patch\zephyr_patch.paa";
+		color[]={1,1,1,1};
+		size=40;
+		shadow = 0;
+		scope = 2;
+		markerClass = "Zephyr_MapMarkers";
+	};
+};
