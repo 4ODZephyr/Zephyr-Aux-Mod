@@ -20,7 +20,7 @@ class CfgUnitInsignia
 	{
 		displayName = "Zephyr Unit Patch";
 		author = "Lupus590";
-		texture = "\z\zephyr\addons\unit_patch\zephyr_patch.paa";
+		texture = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
@@ -38,7 +38,7 @@ class CfgMarkers
 	class Zephyr_Marker
 	{
 		name="[4ODZ] Zephyr";
-		icon = "\z\zephyr\addons\unit_patch\zephyr_patch.paa";
+		icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
 		color[]={1,1,1,1};
 		size=40;
 		shadow = 0;
