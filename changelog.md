@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Fixed
-- Logo not being reference correctly in mod.cpp
+- Logo not being referenced correctly in mod.cpp
 
 ### Changed
 - Removed logo background for more pleasant appearance on the main menu
