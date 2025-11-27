@@ -1,7 +1,7 @@
 name = "Zephyr Aux Mod";
-picture = "logo.paa";
+picture = "zephyr-logo.paa";
 overview = "Custom tweaks for our Arma unit. ";
-logo = "logo.paa";
-logoOver = "logo.paa";
+logo = "zephyr-logo.paa";
+logoOver = "zephyr-logo.paa";
 actionName = "GitHub";
 action = "https://github.com/4ODZephyr/Zephyr-Aux-Mod";
