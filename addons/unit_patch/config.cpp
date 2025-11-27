@@ -29,7 +29,7 @@ class CfgMarkerClasses
 {
 	class Zephyr_MapMarkers
 	{
-		displayName="Zephyr Markers";
+		displayName = "Zephyr Markers";
 	};
 };
 
