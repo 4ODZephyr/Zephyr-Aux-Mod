@@ -38,7 +38,7 @@ class CfgMarkers
 	class Zephyr_Marker
 	{
 		name="[4ODZ] Zephyr";
-		icon="\z\zephyr\addons\unit_patch\zephyr_patch.paa";
+		icon = "\z\zephyr\addons\unit_patch\zephyr_patch.paa";
 		color[]={1,1,1,1};
 		size=40;
 		shadow = 0;
