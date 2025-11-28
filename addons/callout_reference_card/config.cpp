@@ -26,8 +26,8 @@ class CfgWeapons {
         scope = 2;
         displayName = "Callout Reference Card";
         //descriptionShort = CSTRING(Description);
-        //picture = QPATHTOF(UI\RangeCard_Icon.paa);
-        icon = "iconObject_circle";
+        picture = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
+        icon = "iconObject_circle"; // "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
         mapSize = 0.034;
         ACE_isTool = 1;
 
