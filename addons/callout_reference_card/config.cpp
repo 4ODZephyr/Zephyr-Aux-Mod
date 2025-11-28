@@ -25,7 +25,7 @@ class CfgWeapons {
         author = "Lupus590";
         scope = 2;
         displayName = "Callout Reference Card";
-        //descriptionShort = CSTRING(Description);
+        descriptionShort = "A handy reference for Zephyr specific tactical callouts.";
         picture = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
         icon = "iconObject_circle"; // "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
         mapSize = 0.034;
