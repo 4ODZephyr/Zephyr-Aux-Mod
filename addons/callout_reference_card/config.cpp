@@ -48,7 +48,6 @@ class CfgVehicles {
 					distance = 2.0;
                     condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _target)) || ('Zephyr_CalloutReferenceCard' in (vestItems _target))";
 					statement = "_player call hint ""copy other""";
-					//condition = QUOTE(_target call FUNC(canCopy));
 					//statement = QUOTE(_target call FUNC(updateClassNames));
 					icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
 				};
@@ -60,7 +59,6 @@ class CfgVehicles {
 					displayName = "Open Callout Reference Card";
                     condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
 					statement = "_player call hint ""open""";
-					//condition = QUOTE(call FUNC(canShow) && !GVAR(RangeCardOpened));
 					//statement = QUOTE(false call FUNC(openRangeCard));
 					showDisabled = 0;
 					icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
@@ -68,7 +66,6 @@ class CfgVehicles {
 					class Zephyr_MakeCopyCalloutReferenceCard {
 						displayName = "Copy Callout Reference Card";
                     	condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
-						//condition = QUOTE(call FUNC(canShow) && !GVAR(RangeCardOpened));
 						statement = "_player call hint ""copy self""";
 						//statement = QUOTE(GVAR(zeroRangeCopy)=GVAR(zeroRange); GVAR(boreHeightCopy)=GVAR(boreHeight); GVAR(ammoClassCopy)=GVAR(ammoClass); GVAR(magazineClassCopy)=GVAR(magazineClass); GVAR(weaponClassCopy)=GVAR(weaponClass););
 						showDisabled = 0;
