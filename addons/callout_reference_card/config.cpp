@@ -5,8 +5,12 @@ class CfgPatches
 		addonRootClass = "Zephyr_Core";
 		name = "Zephyr - Callout Reference Card";
 		author = "Lupus590";
-		units[] = {Zephyr_Item_CalloutReferenceCard};
-		weapons[] = {Zephyr_CalloutReferenceCard};
+		units[] = {
+			"Zephyr_Item_CalloutReferenceCard",
+			};
+		weapons[] = {
+			"Zephyr_CalloutReferenceCard",
+			};
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
