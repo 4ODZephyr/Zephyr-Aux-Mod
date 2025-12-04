@@ -107,6 +107,33 @@ class CfgVehicles {
 	};
 };
 
+class Zephyr_Dialog_CalloutReferenceCard
+{
+    idd = -1;
+    movingEnable = 1;
+    onLoad = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', (_this select 0)]";
+    onUnload = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', nil]";
+    //onLoad = QUOTE(uiNamespace setVariable [ARR_2(QQGVAR(CrossPanel_Display),(_this select 0))]);
+    //onUnload = QUOTE(_this call FUNC(onCloseDialog));
+    objects[] = {};
 
-//#include "CfgEventHandlers.hpp"
-//#include "RscTitles.hpp"
+    class controls
+	{
+        class background
+		{
+            moving = 1;
+            type = 0;
+            font = "TahomaB";
+            SizeEX = 0.025;
+            idc = -1;
+            style = 48;
+            x = "safezoneX";
+            y = "safezoneY+0.181889";
+            w = 1.62727*3/4;
+            h = "1.62727";
+            colorBackground[] = {1,1,1,1};
+            colorText[] = {1,1,1,1};
+            text = "\z\zephyr\addons\callout_reference_card\data\callout_reference_card-1.paa";
+        };
+    };
+};
