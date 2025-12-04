@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - Unit map marker
+- A bunch of other Halo themed map markers
 
 ### Fixed
 - Logo not being referenced correctly in mod.cpp
