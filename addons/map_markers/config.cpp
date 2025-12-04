@@ -50,7 +50,7 @@ class CfgMarkers
 
 	class Zephyr_Marker_Innie2 : Zephyr_Marker
 	{
-		name="[4ODZ] Innie2";
+		name="[4ODZ] Innie Alt.";
 		icon = "\z\zephyr\addons\map_markers\Innie2.paa";
 	};
 
