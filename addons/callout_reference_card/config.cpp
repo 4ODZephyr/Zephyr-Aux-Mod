@@ -62,8 +62,8 @@ class CfgVehicles {
 				class Zephyr_OpenCalloutReferenceCard {
 					displayName = "Open Callout Reference Card";
                     condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
-					statement = "_player call hint ""open""";
-					//statement = QUOTE(false call FUNC(openRangeCard));
+					//statement = "_player call hint ""open""";
+					statement = "createDialog ""Zephyr_Dialog_CalloutReferenceCard""";
 					showDisabled = 0;
 					icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
 					exceptions[] = {"notOnMap", "isNotInside"};
