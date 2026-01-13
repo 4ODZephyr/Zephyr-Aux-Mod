@@ -112,7 +112,7 @@ class XtdGearModels
 				};
 				class Unzipped
 				{
-					actionlabel = "Unzip Collar";
+					actionlabel = "Unzip collar";
 				};
 			};
 		};

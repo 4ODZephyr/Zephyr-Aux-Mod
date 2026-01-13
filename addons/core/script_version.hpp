@@ -1,6 +1,6 @@
 //Update to match changelog version on release
 #define MAJOR 1
-#define MINOR 2
+#define MINOR 3
 #define PATCH 0
 
 #define VERSION     MAJOR.MINOR

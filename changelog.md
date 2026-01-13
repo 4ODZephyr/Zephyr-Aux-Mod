@@ -7,12 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Added
+- Add TCP commando magazines to the SA TR12M
+
+## 1.3.0
+### Added
 - Unit map marker
 - Misc Halo themed map markers
-
 ### Fixed
 - Logo not being referenced correctly in mod.cpp
-
 ### Changed
 - Removed logo background for more pleasant appearance on the main menu
 
