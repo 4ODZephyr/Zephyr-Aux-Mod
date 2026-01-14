@@ -32,7 +32,6 @@ class CfgWeapons {
 		descriptionShort = "A handy reference for Zephyr specific tactical callouts.";
 		picture = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
 		mapSize = 0.034;
-		ACE_isTool = 1;
 
 		class ItemInfo: CBA_MiscItem_ItemInfo {
 			mass = 0.1;
