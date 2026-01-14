@@ -14,7 +14,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
-			"Zephyr_Unit_Patch",
+			"Zephyr_Insignia_Patch",
 			"ace_main",
 		};
 		skipWhenMissingDependencies = 1;
