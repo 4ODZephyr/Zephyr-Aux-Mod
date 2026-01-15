@@ -41,7 +41,6 @@ class CfgWeapons {
 
 
 class CfgVehicles {
-
 	class Man;
 	class CAManBase: Man {
 		class ACE_Actions {
