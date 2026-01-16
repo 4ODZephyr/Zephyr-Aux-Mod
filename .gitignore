@@ -11,3 +11,4 @@ releases/
 build-config.json
 build/
 meta/tools/hemtt/
+*.krz~
