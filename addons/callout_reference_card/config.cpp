@@ -30,7 +30,7 @@ class CfgWeapons {
 		scope = 2;
 		displayName = "Callout Reference Card";
 		descriptionShort = "A handy reference for Zephyr specific tactical callouts.";
-		picture = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
+		picture = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 		mapSize = 0.034;
 
 		class ItemInfo: CBA_MiscItem_ItemInfo {
@@ -51,7 +51,7 @@ class CfgVehicles {
                     condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _target)) || ('Zephyr_CalloutReferenceCard' in (vestItems _target))";
 					statement = "_player call hint ""copy other""";
 					//statement = QUOTE(_target call FUNC(updateClassNames));
-					icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
+					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 				};
 			};
 		};
@@ -63,7 +63,7 @@ class CfgVehicles {
 					//statement = "_player call hint ""open""";
 					statement = "createDialog ""Zephyr_Dialog_CalloutReferenceCard""";
 					showDisabled = 0;
-					icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
+					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 					exceptions[] = {"notOnMap", "isNotInside"};
 					class Zephyr_MakeCopyCalloutReferenceCard {
 						displayName = "Copy Callout Reference Card";
@@ -71,7 +71,7 @@ class CfgVehicles {
 						statement = "_player call hint ""copy self""";
 						//statement = QUOTE(GVAR(zeroRangeCopy)=GVAR(zeroRange); GVAR(boreHeightCopy)=GVAR(boreHeight); GVAR(ammoClassCopy)=GVAR(ammoClass); GVAR(magazineClassCopy)=GVAR(magazineClass); GVAR(weaponClassCopy)=GVAR(weaponClass););
 						showDisabled = 0;
-						icon = "\z\zephyr\addons\unit_patch\zephyr_logo.paa";
+						icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 						exceptions[] = {"notOnMap", "isNotInside"};
 					};
 				};
@@ -131,7 +131,7 @@ class Zephyr_Dialog_CalloutReferenceCard
             h = "1.62727";
             colorBackground[] = {1,1,1,1};
             colorText[] = {1,1,1,1};
-            text = "\z\zephyr\addons\callout_reference_card\data\callout_reference_card-1.paa";
+            text = "\z\zephyr\addons\callout_reference_card\data\callout-reference-card-1.paa";
         };
     };
 };
