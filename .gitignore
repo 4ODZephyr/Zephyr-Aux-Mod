@@ -8,7 +8,5 @@ releases/
 .hemttprivatekey
 
 .vscode
-build-config.json
-build/
 meta/tools/hemtt/
 *.krz~
