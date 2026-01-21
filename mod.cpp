@@ -1,6 +1,6 @@
 name = "Zephyr Aux Mod";
 picture = "zephyr-logo.paa";
-overview = "Custom tweaks for our Arma unit. ";
+overview = "Custom tweaks for our Arma unit.";
 logo = "zephyr-logo.paa";
 logoOver = "zephyr-logo.paa";
 actionName = "GitHub";
