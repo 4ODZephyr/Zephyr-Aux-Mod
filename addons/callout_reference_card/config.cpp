@@ -50,7 +50,6 @@ class CfgVehicles {
 					distance = 2.0;
                     condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _target)) || ('Zephyr_CalloutReferenceCard' in (vestItems _target))";
 					statement = "_player call hint ""copy other""";
-					//statement = QUOTE(_target call FUNC(updateClassNames));
 					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 				};
 			};
@@ -60,7 +59,6 @@ class CfgVehicles {
 				class Zephyr_OpenCalloutReferenceCard {
 					displayName = "Open Callout Reference Card";
                     condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
-					//statement = "_player call hint ""open""";
 					statement = "createDialog ""Zephyr_Dialog_CalloutReferenceCard""";
 					showDisabled = 0;
 					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
@@ -69,7 +67,6 @@ class CfgVehicles {
 						displayName = "Copy Callout Reference Card";
                     	condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
 						statement = "_player call hint ""copy self""";
-						//statement = QUOTE(GVAR(zeroRangeCopy)=GVAR(zeroRange); GVAR(boreHeightCopy)=GVAR(boreHeight); GVAR(ammoClassCopy)=GVAR(ammoClass); GVAR(magazineClassCopy)=GVAR(magazineClass); GVAR(weaponClassCopy)=GVAR(weaponClass););
 						showDisabled = 0;
 						icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 						exceptions[] = {"notOnMap", "isNotInside"};
@@ -111,8 +108,6 @@ class Zephyr_Dialog_CalloutReferenceCard
     movingEnable = 1;
     onLoad = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', (_this select 0)]";
     onUnload = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', nil]";
-    //onLoad = QUOTE(uiNamespace setVariable [ARR_2(QQGVAR(CrossPanel_Display),(_this select 0))]);
-    //onUnload = QUOTE(_this call FUNC(onCloseDialog));
     objects[] = {};
 
     class controls
