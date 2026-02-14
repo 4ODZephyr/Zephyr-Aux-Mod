@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+### Changed
+- TCP GLs are now able to fire 40mm drones
+
+## 1.4.0
+### Added
+- Add TCP commando magazines to the SA TR12M
 
 ## 1.3.0
 ### Added
