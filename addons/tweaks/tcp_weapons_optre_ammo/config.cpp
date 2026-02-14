@@ -20,7 +20,7 @@ class CfgMagazineWells
 {
 	class TCP_40_1
 	{
-		TCP_Weapons_Ammo_40_Smoke[] += {
+		OPTRE_grenades[] += {
 			// normal smokes
 			"1Rnd_Smoke_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
