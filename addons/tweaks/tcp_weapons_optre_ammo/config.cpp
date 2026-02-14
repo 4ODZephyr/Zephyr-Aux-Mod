@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class Zephyr_Tweaks_TCP_Weapons
+	class Zephyr_Tweaks_TCP_Weapons_OPTRE_Ammo
 	{
 		addonRootClass = "Zephyr_Core";
-		name = "Zephyr - Tweaks - TCP Weapons";
+		name = "Zephyr - Tweaks - TCP Weapons OPTRE Ammo";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
@@ -20,7 +20,7 @@ class CfgMagazineWells
 {
 	class TCP_40_1
 	{
-		TCP_Weapons_Ammo_40_Smoke[] += {
+		OPTRE_grenades[] += {
 			// normal smokes
 			"1Rnd_Smoke_Grenade_shell",
 			"1Rnd_SmokeRed_Grenade_shell",
