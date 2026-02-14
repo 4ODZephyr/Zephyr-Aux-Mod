@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class Zephyr_Tweaks_TCP_Weapons
+	class Zephyr_Tweaks_TCP_Weapons_OPTRE_Ammo
 	{
 		addonRootClass = "Zephyr_Core";
-		name = "Zephyr - Tweaks - TCP Weapons";
+		name = "Zephyr - Tweaks - TCP Weapons OPTRE Ammo";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
