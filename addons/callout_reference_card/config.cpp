@@ -48,7 +48,7 @@ class CfgVehicles {
 				class Zephyr_CopyCalloutReferenceCard {
 					displayName = "Copy Callout Reference Card";
 					distance = 2.0;
-                    condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _target)) || ('Zephyr_CalloutReferenceCard' in (vestItems _target))";
+					condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _target)) || ('Zephyr_CalloutReferenceCard' in (vestItems _target))";
 					statement = "_player call hint ""copy other""";
 					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 				};
@@ -58,14 +58,14 @@ class CfgVehicles {
 			class ACE_Equipment {
 				class Zephyr_OpenCalloutReferenceCard {
 					displayName = "Open Callout Reference Card";
-                    condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
+					condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
 					statement = "createDialog ""Zephyr_Dialog_CalloutReferenceCard""";
 					showDisabled = 0;
 					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
 					exceptions[] = {"notOnMap", "isNotInside"};
 					class Zephyr_MakeCopyCalloutReferenceCard {
 						displayName = "Copy Callout Reference Card";
-                    	condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
+						condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
 						statement = "_player call hint ""copy self""";
 						showDisabled = 0;
 						icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
@@ -104,29 +104,29 @@ class CfgVehicles {
 
 class Zephyr_Dialog_CalloutReferenceCard
 {
-    idd = -1;
-    movingEnable = 1;
-    onLoad = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', (_this select 0)]";
-    onUnload = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', nil]";
-    objects[] = {};
+	idd = -1;
+	movingEnable = 1;
+	onLoad = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', (_this select 0)]";
+	onUnload = "uiNamespace setVariable ['Zephyr_CalloutReferenceCard_Display', nil]";
+	objects[] = {};
 
-    class controls
+	class controls
 	{
-        class background
+		class background
 		{
-            moving = 1;
-            type = 0;
-            font = "TahomaB";
-            SizeEX = 0.025;
-            idc = -1;
-            style = 48;
-            x = "safezoneX";
-            y = "safezoneY+0.181889";
-            w = 0.5;
-            h = 1;
-            colorBackground[] = {1,1,1,1};
-            colorText[] = {1,1,1,1};
-            text = "\z\zephyr\addons\callout_reference_card\callout-reference-card.paa";
-        };
-    };
+			moving = 1;
+			type = 0;
+			font = "TahomaB";
+			SizeEX = 0.025;
+			idc = -1;
+			style = 48;
+			x = "safezoneX";
+			y = "safezoneY+0.181889";
+			w = 0.5;
+			h = 1;
+			colorBackground[] = {1,1,1,1};
+			colorText[] = {1,1,1,1};
+			text = "\z\zephyr\addons\callout_reference_card\callout-reference-card.paa";
+		};
+	};
 };
