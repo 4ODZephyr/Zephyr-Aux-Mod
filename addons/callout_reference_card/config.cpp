@@ -76,7 +76,7 @@ class CfgVehicles {
 		};
 	};
 
-// TODO: remove macro
+// TODO: remove macro?
 	#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
 	name = #ITEM; \
 	count = COUNT; \
@@ -122,8 +122,8 @@ class Zephyr_Dialog_CalloutReferenceCard
             style = 48;
             x = "safezoneX";
             y = "safezoneY+0.181889";
-            w = 1;
-            h = 2;
+            w = 0.5;
+            h = 1;
             colorBackground[] = {1,1,1,1};
             colorText[] = {1,1,1,1};
             text = "\z\zephyr\addons\callout_reference_card\callout-reference-card.paa";
