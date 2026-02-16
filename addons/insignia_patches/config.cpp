@@ -10,6 +10,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
+			"A3_Ui_F",
 		};
 	};
 };
