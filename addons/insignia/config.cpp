@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class Zephyr_Insignia_Patch
+	class Zephyr_Insignia
 	{
 		addonRootClass = "Zephyr_Core";
-		name = "Zephyr - Insignia Patch";
+		name = "Zephyr - Insignia";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
@@ -21,7 +21,7 @@ class CfgUnitInsignia
 	{
 		displayName = "Zephyr Unit Patch";
 		author = "Lupus590";
-		texture = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
+		texture = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
