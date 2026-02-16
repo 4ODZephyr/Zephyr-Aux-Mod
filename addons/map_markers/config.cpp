@@ -10,7 +10,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
-			"Zephyr_Insignia_Patch",
+			"Zephyr_Insignia",
 		};
 	};
 };
@@ -28,7 +28,7 @@ class CfgMarkers
 	class Zephyr_Marker
 	{
 		name="[4ODZ] Zephyr";
-		icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
+		icon = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 		color[]={1,1,1,1};
 		size=40;
 		shadow = 0;

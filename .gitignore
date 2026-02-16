@@ -9,3 +9,4 @@ releases/
 
 .vscode
 meta/tools/hemtt/
+*.krz~
