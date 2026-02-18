@@ -122,7 +122,7 @@ class Zephyr_Dialog_CalloutReferenceCard
 			style = 48;
 			x = "safezoneX";
 			y = "safezoneY+0.181889";
-			w = 0.5;
+			w = 2;
 			h = 1;
 			colorBackground[] = {1,1,1,1};
 			colorText[] = {1,1,1,1};
