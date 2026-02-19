@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class Zephyr_Tweaks_SA_Weapons
+	class Zephyr_Tweaks_SA_Weapons_TCP_Ammo
 	{
 		addonRootClass = "Zephyr_Core";
-		name = "Zephyr - Tweaks - SA Weapons";
+		name = "Zephyr - Tweaks - SA Weapons TCP Ammo";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
