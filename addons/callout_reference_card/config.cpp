@@ -30,7 +30,7 @@ class CfgWeapons {
 		scope = 2;
 		displayName = "Callout Reference Card";
 		descriptionShort = "A handy reference for Zephyr specific tactical callouts.";
-		picture = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
+		picture = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 		mapSize = 0.034;
 
 		class ItemInfo: CBA_MiscItem_ItemInfo {
@@ -50,7 +50,7 @@ class CfgVehicles {
 					distance = 2.0;
 					condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _target)) || ('Zephyr_CalloutReferenceCard' in (vestItems _target))";
 					statement = "_player call hint ""copy other""";
-					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
+					icon = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 				};
 			};
 		};
@@ -61,14 +61,14 @@ class CfgVehicles {
 					condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
 					statement = "createDialog ""Zephyr_Dialog_CalloutReferenceCard""";
 					showDisabled = 0;
-					icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
+					icon = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 					exceptions[] = {"notOnMap", "isNotInside"};
 					class Zephyr_MakeCopyCalloutReferenceCard {
 						displayName = "Copy Callout Reference Card";
 						condition = "('Zephyr_CalloutReferenceCard' in (uniformItems _player)) || ('Zephyr_CalloutReferenceCard' in (vestItems _player))";
 						statement = "_player call hint ""copy self""";
 						showDisabled = 0;
-						icon = "\z\zephyr\addons\insignia_patches\zephyr_patch.paa";
+						icon = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 						exceptions[] = {"notOnMap", "isNotInside"};
 					};
 				};
