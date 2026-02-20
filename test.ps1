@@ -1,7 +1,14 @@
-& "$PSScriptRoot/build.ps1"
+param (
+   [switch]$SkipPause = $false
+)
+
+& "$PSScriptRoot/build.ps1" -SkipPause $true
 if ($LASTEXITCODE -ne 0) {
 	Write-Error "Build failed, aborting test."
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
 
@@ -17,12 +24,18 @@ else
 if($LASTEXITCODE -eq 0)
 {
 	Write-Output "Build successful"
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
 else
 {
 	Write-Error "Build failed, see HEMTT output for details"
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }

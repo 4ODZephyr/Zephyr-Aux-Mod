@@ -1,13 +1,23 @@
-& "$PSScriptRoot/prepRelease.ps1"
+param (
+   [switch]$SkipPause = $false
+)
+
+& "$PSScriptRoot/prepRelease.ps1" -SkipPause $true
 if ($LASTEXITCODE -ne 0) {
 	Write-Error "Release preperation failed, aborting release."
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
-& "$PSScriptRoot/build.ps1"
+& "$PSScriptRoot/build.ps1" -SkipPause $true
 if ($LASTEXITCODE -ne 0) {
 	Write-Error "Build failed, aborting release."
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
 
@@ -23,12 +33,18 @@ else
 if($LASTEXITCODE -eq 0)
 {
 	Write-Output "Release built"
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
 else
 {
 	Write-Error "Failed to build release, see HEMTT output for details"
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }

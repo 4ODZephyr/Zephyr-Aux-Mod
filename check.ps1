@@ -1,3 +1,7 @@
+param (
+   [switch]$SkipPause = $false
+)
+
 if(Test-Path "./meta/tools/hemtt/hemtt.exe")
 {
 	./meta/tools/hemtt/hemtt.exe check
@@ -10,12 +14,18 @@ else
 if($LASTEXITCODE -eq 0)
 {
 	Write-Output "Check passed"
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
 else
 {
 	Write-Error "Check failed, see HEMTT output for details"
-	Pause
+	if(-not $SkipPause)
+	{
+		Pause
+	}
 	exit $LASTEXITCODE
 }
