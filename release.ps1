@@ -1,6 +1,12 @@
 & "$PSScriptRoot/prepRelease.ps1"
 if ($LASTEXITCODE -ne 0) {
-	Write-Error "prepRelease.ps1 failed, aborting release."
+	Write-Error "Release preperation failed, aborting release."
+	Pause
+	exit $LASTEXITCODE
+}
+& "$PSScriptRoot/build.ps1"
+if ($LASTEXITCODE -ne 0) {
+	Write-Error "Build failed, aborting release."
 	Pause
 	exit $LASTEXITCODE
 }

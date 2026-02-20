@@ -1,3 +1,10 @@
+& "$PSScriptRoot/build.ps1"
+if ($LASTEXITCODE -ne 0) {
+	Write-Error "Build failed, aborting test."
+	Pause
+	exit $LASTEXITCODE
+}
+
 if(Test-Path "./meta/tools/hemtt/hemtt.exe")
 {
 	./meta/tools/hemtt/hemtt.exe launch
