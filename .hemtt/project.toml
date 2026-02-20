@@ -9,7 +9,6 @@ git_hash = 0 # It's a shame that I can't get this to work
 
 [files]
 include = [
-	"zephyr-logo.paa",
 	"changelog.md",
 	"mod.cpp",
 ]
@@ -32,3 +31,4 @@ executable = "arma3_x64" # Default: "arma3_x64"
 file_patching = false # Default: true
 binarize = true # Default: false
 rapify = false # Default: true
+
