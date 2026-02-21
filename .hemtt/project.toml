@@ -31,4 +31,3 @@ executable = "arma3_x64" # Default: "arma3_x64"
 file_patching = false # Default: true
 binarize = true # Default: false
 rapify = false # Default: true
-
