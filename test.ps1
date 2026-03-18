@@ -1,5 +1,5 @@
 param (
-   [switch]$SkipPause = $false
+	[switch]$SkipPause = $false
 )
 
 & "$PSScriptRoot/build.ps1" -SkipPause $true

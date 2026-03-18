@@ -1,5 +1,5 @@
 param (
-   [switch]$SkipPause = $false
+	[switch]$SkipPause = $false
 )
 
 if(Test-Path "./meta/tools/hemtt/hemtt.exe")
