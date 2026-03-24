@@ -1,5 +1,7 @@
 # Zephyr Aux Mod
-Custom tweaks for our Arma unit.
+Custom tweaks and content for our Arma unit.
+
+This project is on [GitHub](https://github.com/4ODZephyr/Zephyr-Aux-Mod).
 
 ## Getting Started
 See [meta/doc/Getting_Started.md](meta/doc/Getting_Started.md)
