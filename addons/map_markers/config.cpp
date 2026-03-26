@@ -36,6 +36,12 @@ class CfgMarkers
 		markerClass = "Zephyr_MapMarkers";
 	};
 
+	class Zephyr_Marker2 : Zephyr_Marker
+	{
+		name="[4ODZ] Zephyr2";
+		icon = "\z\zephyr\addons\insignia\zephyr_emblem.paa";
+	};
+
 	class Zephyr_Marker_CAA : Zephyr_Marker
 	{
 		name="[4ODZ] CAA";
