@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - Custom rank icons compatable with TCPs rank system (rank icons on chestplate)
+- New unit emblem
 ### Fixed
 - TCP GLs not accepting 40mm drones and OPTRE smokes
 ### Removed
