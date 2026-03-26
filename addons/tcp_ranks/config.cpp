@@ -28,7 +28,7 @@ class CfgTCPRanks
 				displayNameShort = "CDT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R01_CDT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R01_CDT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R02
 			{
@@ -36,7 +36,7 @@ class CfgTCPRanks
 				displayNameShort = "PVT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R02_PVT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R02_PVT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R03
 			{
@@ -44,7 +44,7 @@ class CfgTCPRanks
 				displayNameShort = "PFC";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R03_PFC_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R03_PFC_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R04
 			{
@@ -52,7 +52,7 @@ class CfgTCPRanks
 				displayNameShort = "LCPL";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R04_LCPL_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R04_LCPL_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R05
 			{
@@ -60,7 +60,7 @@ class CfgTCPRanks
 				displayNameShort = "SPC";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R05_SPC_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R05_SPC_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R06
 			{
@@ -68,7 +68,7 @@ class CfgTCPRanks
 				displayNameShort = "WO";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R06_WO_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R06_WO_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R07
 			{
@@ -76,7 +76,7 @@ class CfgTCPRanks
 				displayNameShort = "CWO";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R07_CWO_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R07_CWO_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R08
 			{
@@ -84,7 +84,7 @@ class CfgTCPRanks
 				displayNameShort = "PO";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R08_PO_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R08_PO_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R09
 			{
@@ -92,7 +92,7 @@ class CfgTCPRanks
 				displayNameShort = "CPO";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R09_CPO_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R09_CPO_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class R10
 			{
@@ -100,7 +100,7 @@ class CfgTCPRanks
 				displayNameShort = "SCPO";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R10_SCPO_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\R10_SCPO_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class L05
 			{
@@ -108,7 +108,7 @@ class CfgTCPRanks
 				displayNameShort = "CPL";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L05_CPL_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L05_CPL_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class L06
 			{
@@ -116,7 +116,7 @@ class CfgTCPRanks
 				displayNameShort = "SGT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L06_SGT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L06_SGT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class L07
 			{
@@ -124,7 +124,7 @@ class CfgTCPRanks
 				displayNameShort = "SSGT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L07_SSGT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L07_SSGT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class L08
 			{
@@ -132,7 +132,7 @@ class CfgTCPRanks
 				displayNameShort = "2LT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L08_2LT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L08_2LT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class L09
 			{
@@ -140,7 +140,7 @@ class CfgTCPRanks
 				displayNameShort = "1LT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L09_1LT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L09_1LT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 			class L10
 			{
@@ -148,7 +148,7 @@ class CfgTCPRanks
 				displayNameShort = "CPT";
 				black = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L10_CPT_CA.paa";
 				white = "\z\zephyr\addons\tcp_ranks\data\decals\ranks\L10_CPT_CA.paa";
-				//material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
+				material = "\TCP\Data\Decals\Ranks\UNICOM\rank_E1.rvmat";
 			};
 		};
 	};
