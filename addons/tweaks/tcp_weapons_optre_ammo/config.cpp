@@ -10,7 +10,6 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
-			"TCP_Weapons_Ammo_40",
 			"OPTRE_Weapons_Ammo",
 		};
 		skipWhenMissingDependencies = 1;
