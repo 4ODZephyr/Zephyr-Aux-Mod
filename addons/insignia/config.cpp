@@ -24,4 +24,11 @@ class CfgUnitInsignia
 		texture = "\z\zephyr\addons\insignia\zephyr_patch.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class Zephyr_Emblem
+	{
+		displayName = "Zephyr Unit Emblem";
+		author = "Shewolf";
+		texture = "\z\zephyr\addons\insignia\zephyr_emblem.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 };
