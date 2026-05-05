@@ -26,7 +26,7 @@ class CfgUnitInsignia
 	};
 	class Zephyr_Emblem_Dark
 	{
-		displayName = "Zephyr Unit Path Dark";
+		displayName = "Zephyr Unit Patch Dark";
 		author = "Shewolf & Lexicon";
 		texture = "\z\zephyr\addons\insignia\zephyr_emblem_dark.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
