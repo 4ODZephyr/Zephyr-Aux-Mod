@@ -17,18 +17,18 @@ class CfgPatches
 
 class CfgUnitInsignia
 {
-	class Zephyr_Patch
+	class Zephyr_Emblem_Bright
 	{
-		displayName = "Zephyr Unit Patch";
-		author = "Lupus590";
-		texture = "\z\zephyr\addons\insignia\zephyr_patch.paa";
+		displayName = "Zephyr Unit Patch Bright";
+		author = "Shewolf & Lexicon";
+		texture = "\z\zephyr\addons\insignia\zephyr_emblem_bright.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
-	class Zephyr_Emblem
+	class Zephyr_Emblem_Dark
 	{
-		displayName = "Zephyr Unit Emblem";
-		author = "Shewolf";
-		texture = "\z\zephyr\addons\insignia\zephyr_emblem.paa";
+		displayName = "Zephyr Unit Path Dark";
+		author = "Shewolf & Lexicon";
+		texture = "\z\zephyr\addons\insignia\zephyr_emblem_dark.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
