@@ -10,7 +10,6 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
-			"Zephyr_Insignia",
 		};
 	};
 };
