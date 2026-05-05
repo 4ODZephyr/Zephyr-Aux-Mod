@@ -27,8 +27,8 @@ class CfgMarkers
 {
 	class Zephyr_Marker
 	{
-		name="[4ODZ] Zephyr";
-		icon = "\z\zephyr\addons\insignia\zephyr_patch.paa";
+		name="[4ODZ] Section Three";
+		icon = "\z\zephyr\addons\map_markers\Section_Three.paa";
 		color[]={1,1,1,1};
 		size=40;
 		shadow = 0;
@@ -38,8 +38,8 @@ class CfgMarkers
 
 	class Zephyr_Marker2 : Zephyr_Marker
 	{
-		name="[4ODZ] Zephyr2";
-		icon = "\z\zephyr\addons\insignia\zephyr_emblem.paa";
+		name="[4ODZ] Zephyr";
+		icon = "\z\zephyr\addons\map_markers\Zephyr.paa";
 	};
 
 	class Zephyr_Marker_CAA : Zephyr_Marker
