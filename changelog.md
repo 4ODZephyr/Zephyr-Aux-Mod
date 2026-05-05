@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Added
-- Custom rank icons compatable with TCPs rank system (rank icons on chestplate)
+- [WIP] Custom rank icons compatable with TCPs rank system (rank icons on chestplate)
+  - Known issue, doesn't show up well on the white chest plate
 ### Changed
 - upgraded unit emblem (bright and dark) with fabric texture (map icon is bright only without fabric texture)
 
