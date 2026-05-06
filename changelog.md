@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+
+## 1.7.0
 ### Added
 - [WIP] Custom rank icons compatable with TCPs rank system (rank icons on chestplate)
   - Known issue, doesn't show up well on the white chest plate
@@ -14,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Various TCP optics now can utilise the user's NVGs to provide alternate vison modes
   - Optics that already had extra vison modes have not been changed
   - I think I got all of them
+
 ## 1.6.0
 ### Add
 - New unit emblem
