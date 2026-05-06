@@ -11,7 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Known issue, doesn't show up well on the white chest plate
 ### Changed
 - upgraded unit emblem (bright and dark) with fabric texture (map icon is bright only without fabric texture)
-
+- Various TCP optics now can utilise the user's NVGs to provide alternate vison modes
+  - Optics that already had extra vison modes have not been changed
+  - I think I got all of them
 ## 1.6.0
 ### Add
 - New unit emblem
