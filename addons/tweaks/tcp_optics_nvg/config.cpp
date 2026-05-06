@@ -26,7 +26,7 @@ class CfgWeapons
 {
 	class ItemCore;
 	class InventoryOpticsItem_Base_F;
-	class TCP_OpticsMode_Base_3D;
+	//class TCP_OpticsMode_Base_3D;
 	class TCP_optic_KFA_M6G2: ItemCore
 	{
 		class ItemInfo: InventoryOpticsItem_Base_F
