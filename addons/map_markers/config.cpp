@@ -38,6 +38,7 @@ class CfgMarkers
 	class Zephyr_Marker2 : Zephyr_Marker
 	{
 		name="[4ODZ] Zephyr";
+		author = "Shewolf";
 		icon = "\z\zephyr\addons\map_markers\Zephyr.paa";
 	};
 
