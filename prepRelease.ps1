@@ -2,6 +2,17 @@ param (
 	[switch]$CI
 )
 
+function Pause-If-FromExplorer {
+    try {
+        $ppid = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+        $parent = Get-Process -Id $ppid -ErrorAction SilentlyContinue
+        if ($parent -and $parent.ProcessName -in @('explorer', 'Explorer')) {
+            Write-Host ''
+            Read-Host 'Press Enter to close this window'
+        }
+    } catch { }
+}
+
 if (-not $CI) {
 	# get user to edit changelog
 	Write-Host "Please edit the changelog.md file and save your changes."
@@ -69,4 +80,5 @@ $scriptVersionContent = $scriptVersionContent -replace "(?<=#define BUILD )\d+",
 Set-Content -Path $scriptVersionPath -Value $scriptVersionContent
 
 Write-Output "Updated script_version.hpp to version $newVersion."
+Pause-If-FromExplorer
 exit 0

@@ -6,6 +6,5 @@ hemtt.exe
 *.biprivatekey
 releases/
 .hemttprivatekey
-.vscode
 meta/tools/hemtt/
 *.krz~

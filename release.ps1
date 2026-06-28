@@ -1,23 +1,24 @@
-param (
-	[switch]$SkipPause = $false
-)
+function Pause-If-FromExplorer {
+    try {
+        $ppid = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+        $parent = Get-Process -Id $ppid -ErrorAction SilentlyContinue
+        if ($parent -and $parent.ProcessName -in @('explorer', 'Explorer')) {
+            Write-Host ''
+            Read-Host 'Press Enter to close this window'
+        }
+    } catch { }
+}
 
-& "$PSScriptRoot/prepRelease.ps1" -SkipPause $true
+& "$PSScriptRoot/prepRelease.ps1"
 if ($LASTEXITCODE -ne 0) {
 	Write-Error "Release preperation failed, aborting release."
-	if(-not $SkipPause)
-	{
-		Pause
-	}
+	Pause-If-FromExplorer
 	exit $LASTEXITCODE
 }
-& "$PSScriptRoot/build.ps1" -SkipPause $true
+& "$PSScriptRoot/build.ps1"
 if ($LASTEXITCODE -ne 0) {
 	Write-Error "Build failed, aborting release."
-	if(-not $SkipPause)
-	{
-		Pause
-	}
+	Pause-If-FromExplorer
 	exit $LASTEXITCODE
 }
 
@@ -33,18 +34,12 @@ else
 if($LASTEXITCODE -eq 0)
 {
 	Write-Output "Release built"
-	if(-not $SkipPause)
-	{
-		Pause
-	}
+	Pause-If-FromExplorer
 	exit $LASTEXITCODE
 }
 else
 {
 	Write-Error "Failed to build release, see HEMTT output for details"
-	if(-not $SkipPause)
-	{
-		Pause
-	}
+	Pause-If-FromExplorer
 	exit $LASTEXITCODE
 }
