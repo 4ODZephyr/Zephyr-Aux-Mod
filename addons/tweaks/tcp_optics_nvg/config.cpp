@@ -1,3 +1,5 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class Zephyr_Tweaks_TCP_Optics_NVG
@@ -7,6 +9,8 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
@@ -17,7 +21,8 @@ class CfgPatches
 			"TCP_Weapons_ins_Acc_Optic_M27RCO",
 			"TCP_Weapons_Ins_Acc_Optic_PRO",
 		};
-		skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = TRUE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 

@@ -1,3 +1,5 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class Zephyr_Tweaks_TCP_Weapons_OPTRE_Ammo
@@ -7,12 +9,15 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
 			"OPTRE_Weapons_Ammo",
 		};
-		skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = TRUE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 class CfgMagazineWells

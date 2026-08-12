@@ -1,3 +1,5 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class Zephyr_Insignia

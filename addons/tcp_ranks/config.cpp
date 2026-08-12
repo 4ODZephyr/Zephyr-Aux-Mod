@@ -1,3 +1,5 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class Zephyr_TCP_Ranks
@@ -6,11 +8,15 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
 			"TCP_Data",
 		};
+		skipWhenMissingDependencies = TRUE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 
@@ -18,7 +24,7 @@ class CfgTCPRanks
 {
 	class Zephyr
 	{
-		scope = 2;
+		scope = PUBLIC;
 		displayName = "Zephyr";
 		class Ranks
 		{

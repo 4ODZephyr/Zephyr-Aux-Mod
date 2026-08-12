@@ -1,3 +1,5 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class Zephyr_Tweaks_Yulakia_Pickup_Rocks
@@ -7,13 +9,16 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
 			"ibr_lartanians",
 			"ace_common",
 		};
-		skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = TRUE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 

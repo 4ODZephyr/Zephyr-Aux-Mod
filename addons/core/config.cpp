@@ -1,4 +1,5 @@
-#include "script_version.hpp"
+#include "define.hpp"
+//#include "\z\Zephyr\addons\core\define.hpp"
 
 class CfgPatches
 {
@@ -8,10 +9,14 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"CBA_Main",
 		};
+		skipWhenMissingDependencies = FALSE;
+		skipWhenAnyAddonPresent[] = {};
 		VERSION_CONFIG;
 	};
 };

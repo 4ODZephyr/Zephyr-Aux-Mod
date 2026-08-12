@@ -1,3 +1,5 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class Zephyr_Map_Markers
@@ -7,10 +9,14 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"Zephyr_Core",
 		};
+		skipWhenMissingDependencies = FALSE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 
@@ -28,10 +34,10 @@ class CfgMarkers
 	{
 		name="[4ODZ] Section Three";
 		icon = "\z\zephyr\addons\map_markers\Section_Three.paa";
-		color[]={1,1,1,1};
-		size=40;
-		shadow = 0;
-		scope = 2;
+		color[] = {1,1,1,1};
+		size = 40;
+		shadow = FALSE;
+		scope = PUBLIC;
 		markerClass = "Zephyr_MapMarkers";
 	};
 
