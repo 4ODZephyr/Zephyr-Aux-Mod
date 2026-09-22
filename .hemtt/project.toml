@@ -34,3 +34,6 @@ file_patching = false # Default: true
 binarize = true # Default: false
 rapify = false # Default: true
 mission = "ace_arsenal"
+
+[hemtt.publish]
+changelog = "changelog.md"
