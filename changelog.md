@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Changed
-- MOLOT Group - Lapa Hood now has inventory space on the backpack version
+- MOLOT Group - Lapa Hood now has inventory space on the backpack version and an NVG version
 
 ## 1.9.0
 ### Changed
