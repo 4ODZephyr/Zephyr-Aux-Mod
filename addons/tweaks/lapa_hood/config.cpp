@@ -121,7 +121,7 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
-	class Zephyr_Lapa_Hood_NVG_MC_V1: NVGoggles // TODO: reduce duplication
+	class Zephyr_Lapa_Hood_NVG_MC_V1: NVGoggles
 	{
 		author="MOLOT GROUP / benazy ";
 		picture="\molot_lapa\tex\ui\lapa.paa";
@@ -161,12 +161,6 @@ class CfgWeapons
 				"camo1",
 				"camo2",
 				"camo3",
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
-				"molot_lapa\tex\viper\lapa_leaves_mc_co.paa",
-				"",
 			};
 		};
 		class XtdGearInfo
@@ -272,7 +266,7 @@ class CfgWeapons
 			Mask="Yes";
 		};
 	};
-	class Zephyr_Lapa_Hood_NVG_MCT_V2: Zephyr_Lapa_Hood_NVG_MC_V1
+	class Zephyr_Lapa_Hood_NVG_MCT_V2: Zephyr_Lapa_Hood_NVG_MC_V2
 	{
 		hiddenSelectionsTextures[]=
 		{
