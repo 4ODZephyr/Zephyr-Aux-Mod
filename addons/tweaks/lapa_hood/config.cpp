@@ -10,7 +10,14 @@ class CfgPatches
 		units[] = {};
 		weapons[] =
 		{
-			"Zephyr_Lapa_Hood_NVG_mc_v1",
+			"Zephyr_Lapa_Hood_NVG_MC_V1",
+			"Zephyr_Lapa_Hood_NVG_MCAL_V1",
+			"Zephyr_Lapa_Hood_NVG_SAPSAN_V1",
+			"Zephyr_Lapa_Hood_NVG_MCT_V1",
+			"Zephyr_Lapa_Hood_NVG_MC_V2",
+			"Zephyr_Lapa_Hood_NVG_MCAL_V2",
+			"Zephyr_Lapa_Hood_NVG_SAPSAN_V2",
+			"Zephyr_Lapa_Hood_NVG_MCT_V2",
 		};
 		magazines[] = {};
 		ammo[] = {};
@@ -114,7 +121,7 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
-	class Zephyr_Lapa_Hood_NVG_mc_v1: NVGoggles
+	class Zephyr_Lapa_Hood_NVG_MC_V1: NVGoggles // TODO: reduce duplication
 	{
 		author="MOLOT GROUP / benazy ";
 		picture="\molot_lapa\tex\ui\lapa.paa";
@@ -126,20 +133,20 @@ class CfgWeapons
 		{
 			"camo1",
 			"camo2",
-			"camo3"
+			"camo3",
 		};
 		hiddenSelectionsTextures[]=
 		{
 			"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
 			"molot_lapa\tex\viper\lapa_leaves_mc_co.paa",
-			""
+			"",
 		};
 		modelOptics="";
 		visionMode[]=
 		{
 			"Normal",
 			"NVG",
-			"TI"
+			"TI",
 		};
 		thermalMode[]={0};
 		class ItemInfo: ItemInfo
@@ -153,13 +160,13 @@ class CfgWeapons
 			{
 				"camo1",
 				"camo2",
-				"camo3"
+				"camo3",
 			};
 			hiddenSelectionsTextures[]=
 			{
 				"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
 				"molot_lapa\tex\viper\lapa_leaves_mc_co.paa",
-				""
+				"",
 			};
 		};
 		class XtdGearInfo
@@ -167,6 +174,132 @@ class CfgWeapons
 			model="molot_lapa";
 			Leaves="MC";
 			Mask="None";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_MCAL_V1: Zephyr_Lapa_Hood_NVG_MC_V1
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_mcal_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_mcal_co.paa",
+			"",
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="MCAL";
+			Mask="None";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_SAPSAN_V1: Zephyr_Lapa_Hood_NVG_MC_V1
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_sapsan_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_sapsan_co.paa",
+			"",
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="SAPSAN";
+			Mask="None";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_MCT_V1: Zephyr_Lapa_Hood_NVG_MC_V1
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_mct_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_mct_co.paa",
+			"",
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="MCT";
+			Mask="None";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_MC_V2: Zephyr_Lapa_Hood_NVG_MC_V1 // TODO: reduce duplication
+	{
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_mc_co.paa",
+			"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo1",
+				"camo2",
+				"camo3",
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
+				"molot_lapa\tex\viper\lapa_leaves_mc_co.paa",
+				"molot_lapa\tex\viper\lapa_hood_mc_co.paa",
+			};
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="MC";
+			Mask="Yes";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_MCAL_V2: Zephyr_Lapa_Hood_NVG_MC_V2
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_mcal_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_mcal_co.paa",
+			"molot_lapa\tex\viper\lapa_hood_mcal_co.paa",
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="MCAL";
+			Mask="Yes";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_SAPSAN_V2: Zephyr_Lapa_Hood_NVG_MC_V2
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_sapsan_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_sapsan_co.paa",
+			"molot_lapa\tex\viper\lapa_hood_sapsan_co.paa",
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="SAPSAN";
+			Mask="Yes";
+		};
+	};
+	class Zephyr_Lapa_Hood_NVG_MCT_V2: Zephyr_Lapa_Hood_NVG_MC_V1
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"molot_lapa\tex\viper\lapa_hood_mct_co.paa",
+			"molot_lapa\tex\viper\lapa_leaves_mct_co.paa",
+			"molot_lapa\tex\viper\lapa_hood_mct_co.paa",
+		};
+		class XtdGearInfo
+		{
+			model="molot_lapa";
+			Leaves="MCT";
+			Mask="Yes";
 		};
 	};
 };
