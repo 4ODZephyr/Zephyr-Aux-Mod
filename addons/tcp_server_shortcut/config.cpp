@@ -36,8 +36,8 @@ class CfgMissions
                 briefingName = "Zephyr Main Server";
                 overviewPicture = "";
                 overviewText = "overview text";
-                address = "";
-                port = "";
+                address = "us1.tcp.blackelement.studio";
+                port = "2311";
                 pass = "";
             };
         };
