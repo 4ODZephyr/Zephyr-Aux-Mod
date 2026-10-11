@@ -22,24 +22,24 @@ class CfgPatches
 
 class CfgMissions
 {
-    class TCPServers
-    {
+	class TCPServers
+	{
 		class Zephyr_Official
-        {
-            author = "Lupus590";
-            briefingName = "Official Zephyr Servers";
-            overviewPicture = "";
-            overviewText = "";
-            class Zephyr_MainServer
-            {
-                author = "Lupus590";
-                briefingName = "Zephyr Main Server";
-                overviewPicture = "";
-                overviewText = "overview text";
-                address = "198.73.57.145";
-                port = 2311;
-                pass = "TheWestWind ";
-            };
-        };
-    };
+		{
+			author = "Lupus590";
+			briefingName = "Official Zephyr Servers";
+			overviewPicture = "";
+			overviewText = "";
+			class Zephyr_MainServer
+			{
+				author = "Lupus590";
+				briefingName = "Zephyr Main Server";
+				overviewPicture = "";
+				overviewText = "overview text";
+				address = "198.73.57.145";
+				port = 2311;
+				pass = "TheWestWind ";
+			};
+		};
+	};
 };
