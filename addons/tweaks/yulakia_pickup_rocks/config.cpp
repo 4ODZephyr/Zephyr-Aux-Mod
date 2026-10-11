@@ -35,6 +35,6 @@ class CfgVehicles
 				condition = "_player call ACE_Common_fnc_canDig"; // ace has a seperate check for having an entrenching tool
 				statement = "for ""_i"" from 1 to 5 do { _player addItem ""ibr_throwable_stone""; };";
 			};
-        };
+	};
 	};
 };

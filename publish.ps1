@@ -1,12 +1,12 @@
 function Pause-If-FromExplorer {
-    try {
-        $ppid = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
-        $parent = Get-Process -Id $ppid -ErrorAction SilentlyContinue
-        if ($parent -and $parent.ProcessName -in @('explorer', 'Explorer')) {
-            Write-Host ''
-            Read-Host 'Press Enter to close this window'
-        }
-    } catch { }
+	try {
+		$ppid = (Get-CimInstance Win32_Process -Filter "ProcessId = $PID").ParentProcessId
+		$parent = Get-Process -Id $ppid -ErrorAction SilentlyContinue
+		if ($parent -and $parent.ProcessName -in @('explorer', 'Explorer')) {
+			Write-Host ''
+			Read-Host 'Press Enter to close this window'
+		}
+	} catch { }
 }
 
 & "$PSScriptRoot/release.ps1"
