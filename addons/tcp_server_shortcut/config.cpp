@@ -36,9 +36,9 @@ class CfgMissions
                 briefingName = "Zephyr Main Server";
                 overviewPicture = "";
                 overviewText = "overview text";
-                address = "";
-                port = "";
-                pass = "";
+                address = "198.73.57.145";
+                port = 2311;
+                pass = "TheWestWind ";
             };
         };
     };
