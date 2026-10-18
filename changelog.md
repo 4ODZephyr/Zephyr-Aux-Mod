@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - TCP server direct connect entry
+### Changed
+- TCP Biofoam now has 5 uses.
 
 ## 1.10.0
 ### Changed
