@@ -1,0 +1,119 @@
+#include "\z\Zephyr\addons\core\define.hpp"
+
+class CfgPatches
+{
+	class Zephyr_Tweaks_TCP_SRS_Additional_Optics
+	{
+		addonRootClass = "Zephyr_Core";
+		name = "Zephyr - Tweaks - TCP SRS Additional Optics";
+		author = "Lupus590";
+		units[] = {};
+		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
+		requiredAddons[] =
+		{
+			"Zephyr_Core",
+			"TCP_Weapons_LongRangeRifles_SRS99",
+		};
+		skipWhenMissingDependencies = TRUE;
+		skipWhenAnyAddonPresent[] = {};
+	};
+};
+
+
+class asdg_OpticRail;
+class asdg_OpticRail1913: asdg_OpticRail
+{
+    class compatibleItems;
+};
+class CfgWeapons
+{
+	class Rifle_Base_F;
+	class TCP_srifle_SRS99: Rifle_Base_F
+	{
+		class WeaponSlotsInfo
+		{
+			class CowsSlot: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					MSS_ATACR_25_BLK_GM_NO_NO_NO = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_NO_NO = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_NO_NO = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_NO_TI = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_NO_TI = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_NO_TI = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_NO_NV = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_NO_NV = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_NO_NV = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NO = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NO_IRCF = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NO_IRCS = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NO_VISL = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NO = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NO = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NO_IRCF = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NO_IRCS = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NO_VISL = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NO_IRCF = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NO_IRCS = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NO_VISL = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI_IRCF = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI_IRCS = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI_VISL = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_IRCF = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_IRCS = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_VISL = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_IRCF = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_IRCS = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_VISL = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_IRCF = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_IRCS = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_VISL = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_IRCF = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_IRCS = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_VISL = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_IRCF = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_IRCS = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_VISL = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_NO_TI_D = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_NO_TI_D = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_NO_TI_D = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI_D = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI_D_IRCF = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_TI_D_IRCS = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_D = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_D_IRCF = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_D_IRCS = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_TI_D_VISL = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_D = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_D_IRCF = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_D_IRCS = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_TI_D_VISL = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_NO_NV_D = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_NO_NV_D = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_NO_NV_D = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_D = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_D_IRCF = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_D_IRCS = TRUE;
+					MSS_ATACR_25_BLK_GM_NO_LRF_NV_D_VISL = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_D = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_D_IRCF = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_D_IRCS = TRUE;
+					MSS_ATACR_25_FDE_GM_NO_LRF_NV_D_VISL = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_D = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_D_IRCF = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_D_IRCS = TRUE;
+					MSS_ATACR_25_Camo_GM_NO_LRF_NV_D_VISL = TRUE;
+				};
+			};
+		};
+	};
+};

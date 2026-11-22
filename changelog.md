@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.13.0
+### Added
+- TCP SRS now supports ATACR NV and TI optics
+
 ## 1.12.0
 ### Changed
 - TCP GLs can now take TCP shotgun rounds
