@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 ### Added
 - TCP SRS now supports the OPTRE SRS Suppressor
+- 40mm flashbangs using the tsp breach flashbang script
 
 ## 1.13.0
 ### Added
